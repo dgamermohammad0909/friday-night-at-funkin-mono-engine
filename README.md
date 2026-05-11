@@ -1,4 +1,4 @@
 # friday-night-at-funkin-mono-engine
-friday night at funkin base in engine called monoengine the project sill in devolopmnet and its 
-the porject still in porotoype so still not finsehd stages and alot of bug 
-XBOX PORT SOON:🔃
+GAME HAVE MANY BUGS AND STIL NOT FINSHED AT ALL
+FOR XBOX USERS JUST DOWNLOAD THE APPX IN THE DEV POARTAL THEN RUN IT THE GAME WILL AUTOMATECLLY DOWNLOADING THE CONTENT 
+ITS SUPPORT IN XBOX NOW ✅
