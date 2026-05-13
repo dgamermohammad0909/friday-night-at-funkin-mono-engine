@@ -1,0 +1,32 @@
+Loaded font: fonts/vcr.ttf
+Loaded save data: 4 song scores
+Loaded spritesheet from XML: 15 frames, 1 animations
+  Animation: 'logo bumpin' (15 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'gfDance' (30 frames)
+Loaded spritesheet from XML: 54 frames, 2 animations
+  Animation: 'ENTER PRESSED' (9 frames)
+  Animation: 'Press Enter to Begin' (45 frames)
+Playing audio: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\music/freakyMenu.ogg
+Music started! Sample rate: 44100, Channels: 2
+AlphabetFont loaded: fonts/alphabet/alphabet_bold (67 chars, maxH=76)
+Loaded spritesheet from XML: 48 frames, 8 animations
+  Animation: 'storymode idle' (9 frames)
+  Animation: 'storymode selected' (3 frames)
+  Animation: 'credits idle' (9 frames)
+  Animation: 'credits selected' (3 frames)
+  Animation: 'freeplay idle' (9 frames)
+  Animation: 'freeplay selected' (3 frames)
+  Animation: 'options idle' (9 frames)
+  Animation: 'options selected' (3 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'gfDance' (30 frames)
+Menu buttons: 8 animations
+  'storymode idle' (9 frames)
+  'storymode selected' (3 frames)
+  'credits idle' (9 frames)
+  'credits selected' (3 frames)
+  'freeplay idle' (9 frames)
+  'freeplay selected' (3 frames)
+  'options idle' (9 frames)
+  'options selected' (3 frames)

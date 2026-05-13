@@ -1,0 +1,141 @@
+Loaded font: fonts/vcr.ttf
+Loaded save data: 4 song scores
+Loaded spritesheet from XML: 15 frames, 1 animations
+  Animation: 'logo bumpin' (15 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'gfDance' (30 frames)
+Loaded spritesheet from XML: 54 frames, 2 animations
+  Animation: 'ENTER PRESSED' (9 frames)
+  Animation: 'Press Enter to Begin' (45 frames)
+Playing audio: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\music/freakyMenu.ogg
+Music started! Sample rate: 44100, Channels: 2
+AlphabetFont loaded: fonts/alphabet/alphabet_bold (67 chars, maxH=76)
+Loaded spritesheet from XML: 48 frames, 8 animations
+  Animation: 'storymode idle' (9 frames)
+  Animation: 'storymode selected' (3 frames)
+  Animation: 'credits idle' (9 frames)
+  Animation: 'credits selected' (3 frames)
+  Animation: 'freeplay idle' (9 frames)
+  Animation: 'freeplay selected' (3 frames)
+  Animation: 'options idle' (9 frames)
+  Animation: 'options selected' (3 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'gfDance' (30 frames)
+Menu buttons: 8 animations
+  'storymode idle' (9 frames)
+  'storymode selected' (3 frames)
+  'credits idle' (9 frames)
+  'credits selected' (3 frames)
+  'freeplay idle' (9 frames)
+  'freeplay selected' (3 frames)
+  'options idle' (9 frames)
+  'options selected' (3 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'idle' (30 frames)
+Loaded spritesheet from XML: 40 frames, 2 animations
+  Animation: 'confirm' (26 frames)
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 16 frames, 1 animations
+  Animation: 'idle' (16 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'Pico menu asset' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 40 frames, 2 animations
+  Animation: 'confirm' (26 frames)
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'idle' (30 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'SPL_' (30 frames)
+Loaded spritesheet from XML: 4 frames, 4 animations
+  Animation: 'leftIdle' (1 frames)
+  Animation: 'rightIdle' (1 frames)
+  Animation: 'leftConfirm' (1 frames)
+  Animation: 'rightConfirm' (1 frames)
+Loaded spritesheet from XML: 12 frames, 12 animations
+Loaded spritesheet from XML: 75 frames, 12 animations
+Loaded spritesheet from XML: 8 frames, 1 animations
+  Animation: 'splash ' (8 frames)
+Loading stage: philly_train
+Loaded stage JSON for 'phillyTrain' with 6 props
+Loaded character JSON for 'bf': 16 animations
+Loaded spritesheet from XML: 299 frames, 11 animations
+Loaded character sprites (Sparrow): bf from game/characters/bf/sprites (11 animations)
+Loaded character JSON for 'pico': 5 animations
+Loaded spritesheet from XML: 73 frames, 5 animations
+  Animation: 'Pico Down Note' (11 frames)
+  Animation: 'Pico Idle Dance' (14 frames)
+  Animation: 'Pico NOTE LEFT' (17 frames)
+  Animation: 'Pico Note Right' (17 frames)
+  Animation: 'pico Up note' (14 frames)
+Loaded character sprites (Sparrow): pico from images/characters/Pico_Basic (5 animations)
+Loaded character JSON for 'gf': 12 animations
+Loaded spritemap: 45 frames, 10 animations, 10 composite
+  Animation: 'GF Dancing Beat' (30 frames) [composite]
+  Animation: 'GF Up Note' (7 frames) [composite]
+  Animation: 'GF Down Note' (20 frames) [composite]
+  Animation: 'GF left note' (15 frames) [composite]
+  Animation: 'GF Right Note' (15 frames) [composite]
+  Animation: 'GF Cheer' (21 frames) [composite]
+  Animation: 'gf sad' (80 frames) [composite]
+  Animation: 'GF FEAR ' (4 frames) [composite]
+  Animation: 'GF Dancing Beat Hair blowing' (30 frames) [composite]
+  Animation: 'GF Dancing Beat Hair Landing' (30 frames) [composite]
+Loaded character sprites (spritemap): gf from images/characters/gf (10 animations, 10 composite)
+Character 'gf' has dual dance (danceLeft/danceRight)
+[CAM DEBUG] Opponent 'pico' pos={X:242 Y:410} midpoint={X:468 Y:647.5} camOff=(200,-100) origin={X:226 Y:475} scale=1
+[CAM DEBUG] BF 'bf' pos={X:815 Y:473} midpoint={X:1037.5 Y:693} origin={X:205.5 Y:412} scale=1
+[CAM DEBUG] GF 'gf' pos={X:399.5 Y:112} midpoint={X:739.5 Y:453.5} origin={X:352 Y:675} scale=1
+[CAM DEBUG] Camera=(668,547.5) defaultZoom=1.1
+Song: pico, BPM: 150, Beat: 0.4s, Downscroll: False, Middlescroll: False
+Starting song: songs/pico/Inst
+Playing audio: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\songs/pico/Inst.ogg
+Music started! Sample rate: 44100, Channels: 2
+Voice track started: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\songs/pico/Voices-bf.ogg
+Opponent voice track started: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\songs/pico/Voices-pico.ogg
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'idle' (30 frames)
+Loaded spritesheet from XML: 40 frames, 2 animations
+  Animation: 'confirm' (26 frames)
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 16 frames, 1 animations
+  Animation: 'idle' (16 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'Pico menu asset' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 14 frames, 1 animations
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 40 frames, 2 animations
+  Animation: 'confirm' (26 frames)
+  Animation: 'idle' (14 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'idle' (30 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'SPL_' (30 frames)
+Loaded spritesheet from XML: 4 frames, 4 animations
+  Animation: 'leftIdle' (1 frames)
+  Animation: 'rightIdle' (1 frames)
+  Animation: 'leftConfirm' (1 frames)
+  Animation: 'rightConfirm' (1 frames)
+Playing audio: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\music/freakyMenu.ogg
+Music started! Sample rate: 44100, Channels: 2

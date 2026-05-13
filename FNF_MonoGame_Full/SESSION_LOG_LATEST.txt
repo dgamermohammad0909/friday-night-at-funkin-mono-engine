@@ -1,0 +1,96 @@
+================================================================================
+SESSION LOG - CHARACTER SELECT FREEZE FIX
+================================================================================
+Date: 2025-01-17
+Time: Current Session
+Status: FIX APPLIED - WAITING FOR TEST RESULTS
+
+================================================================================
+PROBLEM
+================================================================================
+Character select scene FREEZES (Windows "Not Responding") on load
+Freeplay scene works fine with DJ animations
+User confirmed: "Character select is NOT responsive / STILL FREEZES"
+
+================================================================================
+ROOT CAUSE IDENTIFIED
+================================================================================
+Creating 100+ RenderTarget2D allocations + rendering to each is TOO SLOW
+- Each RenderTarget2D: allocate GPU memory → set as target → clear → render → unset
+- Character select loads 4 sheets (2 chars × player+spectator) synchronously
+- Each sheet's preRenderComposites generates 20-65+ composite frames
+- Total: hundreds of RT allocations blocking main UI thread > 5 seconds
+
+Previous fix (RT retention) was necessary but NOT sufficient
+- Removed GetData/SetData GPU readback but freeze persists
+- Still creating too many RenderTarget2Ds
+
+================================================================================
+FIX APPLIED (THIS SESSION)
+================================================================================
+Removed preRenderComposites from character select player/spectator loads
+
+File: FNF_MonoGame_Full/Scenes/CharacterSelectScene.cs
+Lines 102-103: Changed from
+  SpriteSheet.Load(Game, b + "/" + cn + "/player", preRenderComposites: true, preRenderFilter: new[] { "Idle", "Confirm" })
+To:
+  SpriteSheet.Load(Game, b + "/" + cn + "/player")
+
+Lines 114-115: Changed from
+  SpriteSheet.Load(Game, b + "/" + cn + "/spectator", preRenderComposites: true, preRenderFilter: new[] { "IdleLeft", "IdleRight", "Idle" })
+To:
+  SpriteSheet.Load(Game, b + "/" + cn + "/spectator")
+
+Why this works:
+- DrawComposite() already has fallback to DrawSparrow for non-composite sheets
+- Character select animations are mostly static idle poses (don't need heavy compositing)
+- Saves hundreds of RenderTarget2D allocations
+- Stage backgrounds (crowd, speakers, bar) already work without preRenderComposites
+- Freeplay DJ still uses preRenderComposites with preRenderFilter (needed for smoothness)
+
+================================================================================
+EXPECTED OUTCOME
+================================================================================
+✓ Character select loads instantly (no freeze)
+✓ Scene remains responsive
+✓ Player/spectator sprites render via DrawSparrow fallback
+✓ Freeplay scene unaffected (still uses preRenderComposites)
+
+Possible slight visual difference: Player/spectator may look slightly less smooth
+during animations, but acceptable for static character select screen.
+
+================================================================================
+WHAT WE DID (THIS SESSION)
+================================================================================
+1. ✅ Identified root cause: 100+ RenderTarget2D allocations blocking UI thread
+2. ✅ Applied fix: Removed preRenderComposites from CharacterSelectScene.cs lines 102-103, 114-115
+3. ✅ Saved conversation log with analysis
+4. ⏳ WAITING: User to test if character select loads without freeze
+
+================================================================================
+FIX VERIFICATION CHECKLIST
+================================================================================
+[ ] Build successfully compiles (no errors)
+[ ] Character select loads instantly (no freeze)
+[ ] Scene is responsive to arrow key input
+[ ] Player sprite renders correctly (BF on right)
+[ ] Spectator sprite renders correctly (GF on left)
+[ ] Icons in character grid animate correctly
+[ ] Selection cursor works
+[ ] Freeplay scene DJ still looks correct (with smooth compositing)
+
+================================================================================
+IF FIX WORKS
+================================================================================
+Update status to: COMPLETE ✓
+Reason: Character select freeze eliminated by removing unnecessary compositing
+
+================================================================================
+IF FIX DOESN'T WORK
+================================================================================
+Next approach: 
+- Investigate if there are other bottlenecks (e.g., icon sheet loading)
+- Consider async/deferred loading during scene transition
+- Profile frame times to identify remaining slow operations
+
+================================================================================

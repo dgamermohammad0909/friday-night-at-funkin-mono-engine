@@ -1,0 +1,279 @@
+Loaded font: fonts/vcr.ttf
+Loaded save data: 4 song scores
+Loaded spritesheet from XML: 15 frames, 1 animations
+  Animation: 'logo bumpin' (15 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'gfDance' (30 frames)
+Loaded spritesheet from XML: 54 frames, 2 animations
+  Animation: 'ENTER PRESSED' (9 frames)
+  Animation: 'Press Enter to Begin' (45 frames)
+Playing audio: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\music/freakyMenu.ogg
+Music started! Sample rate: 44100, Channels: 2
+AlphabetFont loaded: fonts/alphabet/alphabet_bold (67 chars, maxH=76)
+Loaded spritesheet from XML: 48 frames, 8 animations
+  Animation: 'storymode idle' (9 frames)
+  Animation: 'storymode selected' (3 frames)
+  Animation: 'credits idle' (9 frames)
+  Animation: 'credits selected' (3 frames)
+  Animation: 'freeplay idle' (9 frames)
+  Animation: 'freeplay selected' (3 frames)
+  Animation: 'options idle' (9 frames)
+  Animation: 'options selected' (3 frames)
+Loaded spritesheet from XML: 30 frames, 1 animations
+  Animation: 'gfDance' (30 frames)
+Menu buttons: 8 animations
+  'storymode idle' (9 frames)
+  'storymode selected' (3 frames)
+  'credits idle' (9 frames)
+  'credits selected' (3 frames)
+  'freeplay idle' (9 frames)
+  'freeplay selected' (3 frames)
+  'options idle' (9 frames)
+  'options selected' (3 frames)
+Loaded spritesheet from XML: 16 frames, 2 animations
+  Animation: 'mp3 capsule w backing' (8 frames)
+  Animation: 'mp3 capsule w backing NOT SELECTED' (8 frames)
+Loaded spritesheet from XML: 10 frames, 10 animations
+  Animation: 'ZERO' (1 frames)
+  Animation: 'ONE' (1 frames)
+  Animation: 'TWO' (1 frames)
+  Animation: 'THREE' (1 frames)
+  Animation: 'FOUR' (1 frames)
+  Animation: 'FIVE' (1 frames)
+  Animation: 'SIX' (1 frames)
+  Animation: 'SEVEN' (1 frames)
+  Animation: 'EIGHT' (1 frames)
+  Animation: 'NINE' (1 frames)
+Loaded spritesheet from XML: 10 frames, 10 animations
+  Animation: 'ZERO' (1 frames)
+  Animation: 'ONE' (1 frames)
+  Animation: 'TWO' (1 frames)
+  Animation: 'THREE' (1 frames)
+  Animation: 'FOUR' (1 frames)
+  Animation: 'FIVE' (1 frames)
+  Animation: 'SIX' (1 frames)
+  Animation: 'SEVEN' (1 frames)
+  Animation: 'EIGHT' (1 frames)
+  Animation: 'NINE' (1 frames)
+Loaded spritesheet from XML: 2 frames, 2 animations
+  Animation: 'WEEK text instance ' (1 frames)
+  Animation: 'WEEKEND text instance ' (1 frames)
+Loaded spritesheet from XML: 45 frames, 1 animations
+  Animation: 'NEW notif' (45 frames)
+Loaded spritesheet from XML: 10 frames, 1 animations
+  Animation: 'fire loop full instance ' (10 frames)
+Loaded spritesheet from XML: 10 frames, 1 animations
+  Animation: 'sparkle Export' (10 frames)
+Loaded spritemap: 4 frames, 2 animations, 0 composite
+  Animation: 'difficulty stars' (100 frames)
+  Animation: 'diffuculty dot' (1 frames)
+Loaded spritemap: 4 frames, 4 animations, 0 composite
+  Animation: 'BIG SHOES' (1 frames)
+  Animation: 'YEAH' (1 frames)
+  Animation: 'YES YES YES' (1 frames)
+  Animation: 'GET IT' (1 frames)
+Loaded spritesheet from XML: 10 frames, 2 animations
+  Animation: 'open' (9 frames)
+  Animation: 'idle' (1 frames)
+Loaded spritemap: 515 frames, 9 animations, 9 composite
+  Animation: 'boyfriend dj intro' (17 frames) [composite]
+  Animation: 'Boyfriend DJ' (14 frames) [composite]
+  Animation: 'Boyfriend DJ confirm' (30 frames) [composite]
+  Animation: 'Boyfriend DJ fist pump' (65 frames) [composite]
+  Animation: 'Boyfriend DJ loss reaction 1' (173 frames) [composite]
+  Animation: 'bf dj afk' (139 frames) [composite]
+  Animation: 'Boyfriend DJ watchin tv OG' (184 frames) [composite]
+  Animation: 'Boyfriend DJ to CS' (43 frames) [composite]
+  Animation: 'Boyfriend DJ new character ' (60 frames) [composite]
+Loaded spritesheet from XML: 27 frames, 1 animations
+  Animation: 'highscore small instance ' (27 frames)
+Loaded spritesheet from XML: 15 frames, 1 animations
+  Animation: 'arrow pointer loop' (15 frames)
+Loaded spritesheet from XML: 12 frames, 1 animations
+  Animation: 'pulse' (12 frames)
+Loaded spritesheet from XML: 85 frames, 6 animations
+  Animation: 'EXCELLENT rank' (14 frames)
+  Animation: 'GOOD rank' (13 frames)
+  Animation: 'GREAT rank' (13 frames)
+  Animation: 'LOSS rank' (17 frames)
+  Animation: 'PERFECT rank' (14 frames)
+  Animation: 'PERFECT rank GOLD' (14 frames)
+Loaded spritesheet from XML: 12 frames, 2 animations
+  Animation: 'switch' (4 frames)
+  Animation: 'idle' (8 frames)
+Loaded spritesheet from XML: 10 frames, 2 animations
+  Animation: 'switch' (2 frames)
+  Animation: 'idle' (8 frames)
+Loaded spritesheet from XML: 12 frames, 2 animations
+  Animation: 'switch' (4 frames)
+  Animation: 'idle' (8 frames)
+Loaded spritesheet from XML: 12 frames, 2 animations
+  Animation: 'switch' (4 frames)
+  Animation: 'idle' (8 frames)
+Loaded spritesheet from XML: 14 frames, 2 animations
+  Animation: 'switch' (4 frames)
+  Animation: 'idle' (10 frames)
+Loaded spritesheet from XML: 14 frames, 2 animations
+  Animation: 'switch' (4 frames)
+  Animation: 'idle' (10 frames)
+Loaded spritesheet from XML: 14 frames, 2 animations
+  Animation: 'idle' (10 frames)
+  Animation: 'switch' (4 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 7 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (5 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 7 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (5 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 7 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (5 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 7 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (5 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 7 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (5 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 5 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (3 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 7 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (5 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 7 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (5 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 7 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (5 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 7 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (5 frames)
+  Animation: 'confirm-hold' (1 frames)
+Loaded spritesheet from XML: 6 frames, 3 animations
+  Animation: 'idle' (1 frames)
+  Animation: 'confirm' (4 frames)
+  Animation: 'confirm-hold' (1 frames)
+Playing audio: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\songs/tutorial/Inst.ogg
+Music started! Sample rate: 44100, Channels: 2

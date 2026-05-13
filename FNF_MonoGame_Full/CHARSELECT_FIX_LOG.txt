@@ -1,0 +1,174 @@
+================================================================================
+CHARACTER SELECT SCENE - FIX LOG
+================================================================================
+Date: Multi-session effort
+Project: FNF MonoGame Full (Friday Night Funkin' MonoGame port)
+File: FNF_MonoGame_Full/Scenes/CharacterSelectScene.cs
+Engine: FNF_MonoGame_Full/Engine/SpriteSheet.cs
+================================================================================
+
+USER REQUEST:
+"fix the bug and add the sprites speaker"
+"the floor in the bottom not in the center"
+
+================================================================================
+PHASE 1-4: INVISIBLE COMPOSITES (crowd, speakers, bar)
+================================================================================
+
+PROBLEM: Stage composites (crowd, speakers, bar) were invisible in the
+Character Select scene despite being loaded.
+
+ROOT CAUSES & FIXES:
+
+1. hasTransforms flag
+   - Composites weren't being recognized as having transforms
+   - Fixed flag detection in SpriteSheet.cs
+
+2. BlendState (AlphaBlend)
+   - Pre-rendered composite RenderTargets have premultiplied alpha
+   - Scene batches drawing composites must use BlendState.AlphaBlend
+   - Static textures in same batch need PremultiplyAlpha on load
+
+3. Composite Origin (flat translation)
+   - compOrigin is a world-space offset from PreRenderComposite bounding box
+   - Must apply as flat translation: Position - compOrigin
+   - NOT via MonoGame's origin parameter (multiplies by Scale, breaks bar at 2.5x)
+
+4. Deferred Loading Pipeline
+   - CharacterSelect composites use deferred loading:
+     SpriteSheet.Load with deferComposites:true
+     -> RenderRawComposites on GPU thread
+     -> ReplayDeferredAnimations to re-bind animations
+
+RESULT: All composites (crowd, speakers, bar) now visible.
+
+================================================================================
+PHASE 5-8: STI (Stage Instance Transform) INVESTIGATION
+================================================================================
+
+PROBLEM: Composites were shifted off-screen by STI transforms.
+
+ROOT CAUSE: Original FlxAnimate does NOT apply STI by default. It requires
+an explicit applyStageMatrix() call, which CharSelectSubState does NOT make.
+
+FIX: CollectPartsWithTransforms uses identity parent (1,0,0,1,0,0) instead
+of applying STI transforms. Body parts render in the symbol's local
+coordinate space; the scene positions sprites via AnimatedSprite.Position.
+
+RESULT: All composites render at correct positions.
+
+================================================================================
+PHASE 9: ANIMATION FIXES
+================================================================================
+
+1. Bar slide direction: Changed from -80 to +80 (slides right, not left)
+2. Removed fgBlur slide animation (not in original)
+3. Removed chooseDark slide animation (not in original)
+4. Cleaned up _chooseDarkSlideY field
+
+================================================================================
+PHASE 10-11: STAGE FLOOR POSITIONING
+================================================================================
+
+PROBLEM: "the floor in the bottom not in the center"
+The stage floor was rendering near the top of the screen (Y≈84) while
+character feet were at Y≈495, creating a ~411px gap.
+
+INVESTIGATION:
+
+1. AnimateAtlas Transform Structure Discovery:
+   - M3D and TRP transforms are stored INSIDE SI/ASI JSON objects
+   - NOT at the element level (scripts were reading wrong location)
+   - Engine's ReadTransform(si) correctly reads from inside the SI token
+   
+   JSON structure:
+   {"SI": {"SN": "body bf", "TRP": {"x": 38.75, "y": 42.85}, "M3D": [1.0, 0.0, ...]}}
+
+2. BF Player Idle Bounds (CORRECT):
+   - Main timeline M3D: tx=646.60, ty=339.25
+   - Body parts with TRP pivot adjustments
+   - Total BBox: (673.0, 148.2) to (1024.8, 494.7)
+   - FEET (maxY): 494.7
+   - compOrigin: (-673, -148.2)
+   - Screen position: (673, 148) to (1025, 495)
+
+3. GF Spectator Idle:
+   - Main timeline M3D: tx=392.60, ty=339.00
+   - Feet at approximately Y≈394
+
+4. Stage Sparrow Analysis:
+   - Frame size: 1389×382, frameY=-3
+   - Offset = (0, 3)
+   - destPos.Y = stageY + 3
+   - Floor surface (teal rows) at rows 80-200 in frame
+   - With stageY=1: floor at screen Y ≈ 84
+
+5. Root Cause:
+   - Original FNF uses AnimateAtlas (createTextureAtlas) for the stage
+   - AnimateAtlas has internal transforms positioning floor ~390px lower
+   - Our Sparrow XML export trims that empty space
+   - Position (-2, 1) matches original exactly (cutoutSize=0 for 1280×720)
+   - The format difference (Sparrow vs AnimateAtlas) causes the misalignment
+
+6. Calculation:
+   - Need stageY ≈ 390 so floor aligns with character feet
+   - stageY=390 → floor surface top at 390+3+80 = 473
+   - BF feet at 495 → 22px overlap ✓
+
+FIX APPLIED (CharacterSelectScene.cs line 980):
+   BEFORE: DrawAnimatedSprite(spriteBatch, _stageSprite, -2f - scrollX, 1f - scrollY, 1f);
+   AFTER:  DrawAnimatedSprite(spriteBatch, _stageSprite, -2f - scrollX, 390f - scrollY, 1f);
+
+BUILD: Succeeded (0 errors, 6 pre-existing warnings)
+
+================================================================================
+KEY TECHNICAL LESSONS
+================================================================================
+
+1. AnimateAtlas M3D/TRP are inside SI/ASI tokens, not at element level
+2. ReadTransform reads from SI/ASI token, applies TRP pivot:
+   tx -= a*trpX + c*trpY; ty -= b*trpX + d*trpY
+3. PreRenderComposite: origin = (-gMinX, -gMinY)
+   Screen position = world-space position (origin cancels out)
+4. Sparrow: Offset = (-frameX, -frameY), destPos = Position + Offset * Scale
+5. Sparrow export trims transparent space, losing AnimateAtlas internal offsets
+6. spritemap JSON files may have UTF-8 BOM — use encoding="utf-8-sig" in Python
+7. cutoutSize = 0 for standard 1280×720 display
+
+================================================================================
+REMAINING ITEMS (SECONDARY) — ALL RESOLVED
+================================================================================
+
+1. Bar composite scale origin — FIXED. Added scale-from-center compensation
+   in AnimatedSprite.Draw pre-rendered composite path (SpriteSheet.cs):
+   drawPos -= rectSize/2 * (Scale - 1). Zero effect at Scale=(1,1),
+   correct centering at Scale=(2.5,1) for bar. Matches HaxeFlixel's
+   FlxSprite.drawComplex which scales from (frameWidth/2, frameHeight/2).
+
+2. Nametag exit tween — FIXED. Changed _nametagSlideY from 200px to 80px
+   in exit animation (CharacterSelectScene.cs), matching original
+   CharSelectSubState.hx line 688: nametag.y + 80.
+
+================================================================================
+FILES MODIFIED
+================================================================================
+
+- FNF_MonoGame_Full/Scenes/CharacterSelectScene.cs
+  - Stage Y position: 1f → 390f
+  - Bar slide: -80 → +80
+  - Removed fgBlur slide animation
+  - Removed chooseDark slide animation
+  - Cleaned _chooseDarkSlideY field
+  - Nametag exit tween: 200f → 80f
+
+- FNF_MonoGame_Full/Engine/SpriteSheet.cs
+  - Fixed hasTransforms detection
+  - Fixed composite origin (flat translation, not MonoGame origin)
+  - Fixed deferred loading pipeline
+  - STI identity parent for composites
+  - Various blend state and premultiplied alpha fixes
+  - Added scale-from-center compensation for pre-rendered composites
+
+================================================================================
+END OF LOG
+================================================================================

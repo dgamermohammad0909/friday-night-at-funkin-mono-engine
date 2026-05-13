@@ -1,0 +1,1505 @@
+Loaded font: fonts/vcr.ttf
+Loaded save data: 4 song scores
+  Main timeline split into 1 label animations: default
+Loaded spritemap: 4 frames, 1 animations, 0 composite
+  Animation: 'default' (13 frames)
+  Main timeline split into 1 label animations: default
+Loaded spritemap: 7 frames, 5 animations, 0 composite
+  Animation: 'stage' (1 frames)
+  Animation: 'wires' (1 frames)
+  Animation: 'light box' (2 frames)
+  Animation: 'electric panel' (331 frames)
+  Animation: 'default' (331 frames)
+  Main timeline split into 1 label animations: default
+Loaded spritemap: 2 frames, 3 animations, 0 composite
+  Animation: 'back speaker 1 animated' (15 frames)
+  Animation: 'back speaker 2 animated' (15 frames)
+  Animation: 'default' (15 frames)
+  Main timeline split into 1 label animations: default
+Loaded spritemap: 1 frames, 2 animations, 0 composite
+  Animation: 'name bar' (1 frames)
+  Animation: 'default' (4 frames)
+Loaded spritesheet from XML: 8 frames, 1 animations
+  Animation: 'BF ICON' (8 frames)
+Loaded spritesheet from XML: 8 frames, 1 animations
+  Animation: 'PICO ICON' (8 frames)
+Loaded spritesheet from XML: 21 frames, 1 animations
+  Animation: 'CHOOSE horizontal offset instance ' (21 frames)
+Loaded spritesheet from XML: 8 frames, 1 animations
+  Animation: 'CHOOSE vertical offset instance ' (8 frames)
+Loaded spritesheet from XML: 16 frames, 1 animations
+  Animation: 'cursor ACCEPTED instance ' (16 frames)
+Loaded spritesheet from XML: 15 frames, 1 animations
+  Animation: 'cursor DENIED instance ' (15 frames)
+  Main timeline split into 5 label animations: Enter, Idle, Confirm, Cancel, Exit
+Loaded spritemap: 19 frames, 5 animations, 0 composite
+  Animation: 'Enter' (18 frames)
+  Animation: 'Idle' (14 frames)
+  Animation: 'Confirm' (4 frames)
+  Animation: 'Cancel' (10 frames)
+  Animation: 'Exit' (2 frames)
+  Main timeline split into 6 label animations: Enter, IdleLeft, IdleRight, Confirm, Cancel, Exit
+Loaded spritemap: 35 frames, 6 animations, 0 composite
+  Animation: 'Enter' (10 frames)
+  Animation: 'IdleLeft' (15 frames)
+  Animation: 'IdleRight' (15 frames)
+  Animation: 'Confirm' (24 frames)
+  Animation: 'Cancel' (52 frames)
+  Animation: 'Exit' (2 frames)
+  Main timeline split into 5 label animations: Enter, Idle, Confirm, Cancel, Exit
+Loaded spritemap: 19 frames, 5 animations, 0 composite
+  Animation: 'Enter' (18 frames)
+  Animation: 'Idle' (14 frames)
+  Animation: 'Confirm' (4 frames)
+  Animation: 'Cancel' (10 frames)
+  Animation: 'Exit' (2 frames)
+  Main timeline split into 6 label animations: Enter, IdleLeft, IdleRight, Confirm, Cancel, Exit
+Loaded spritemap: 119 frames, 6 animations, 0 composite
+  Animation: 'Enter' (10 frames)
+  Animation: 'IdleLeft' (15 frames)
+  Animation: 'IdleRight' (15 frames)
+  Animation: 'Confirm' (18 frames)
+  Animation: 'Cancel' (5 frames)
+  Animation: 'Exit' (2 frames)
+[DIAG] RenderRawComposites 'default': 13 ticks, atlas=1467x1160
+  tick[0]: 1 parts
+    0000 src=(0,585,1439x288) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=0.0 ty=0.0
+  tick[1]: 1 parts
+    0000 src=(0,585,1439x288) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=0.0 ty=0.0
+  tick[2]: 1 parts
+    0000 src=(0,585,1439x288) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=0.0 ty=0.0
+[DIAG-PRC] bbox=(-10.0,-6.0)-(1457.0,288.0) cell=1467x294 ticks=13
+[DIAG-PRC] unique=4 totalTicks=13
+[DIAG-PRC] atlas=2934x588 cols=2 maxCells=4 unique=4 overflow=False
+[DIAG] Result 'default': 13 frames, cell=1467x294, origin=(10.0,6.0), tex=2934x588
+[DIAG] RenderRawComposites 'stage': 1 ticks, atlas=1389x638
+  tick[0]: 1 parts
+    0000 src=(0,0,1389x333) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=0.0 ty=-2.0
+[DIAG-PRC] bbox=(0.0,-2.0)-(1389.0,331.0) cell=1389x333 ticks=1
+[DIAG-PRC] unique=1 totalTicks=1
+[DIAG-PRC] atlas=1389x333 cols=1 maxCells=1 unique=1 overflow=False
+[DIAG] Result 'stage': 1 frames, cell=1389x333, origin=(-0.0,2.0), tex=1389x333
+[DIAG] RenderRawComposites 'light box': 2 ticks, atlas=1389x638
+  tick[0]: 2 parts
+    0003 src=(1188,338,198x130) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=198.0 ty=0.0
+    0002 src=(1188,542,89x86) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=30.1 ty=23.2
+  tick[1]: 2 parts
+    0003 src=(1188,338,198x130) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=198.0 ty=0.0
+    0002 src=(1188,542,89x86) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=30.1 ty=23.2
+[DIAG-PRC] bbox=(0.0,0.0)-(198.0,130.0) cell=198x130 ticks=2
+[DIAG-PRC] unique=1 totalTicks=2
+[DIAG-PRC] atlas=198x130 cols=1 maxCells=1 unique=1 overflow=False
+[DIAG] Result 'light box': 2 frames, cell=198x130, origin=(-0.0,-0.0), tex=198x130
+[DIAG] RenderRawComposites 'electric panel': 331 ticks, atlas=1389x638
+  tick[0]: 15 parts
+    0004 src=(1188,473,174x64) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=0.0 ty=0.0
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=17.9 ty=16.9
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=38.2 ty=32.4
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=60.0 ty=16.9
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=60.0 ty=32.4
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=80.5 ty=16.9
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=120.6 ty=32.4
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=142.4 ty=16.9
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=142.4 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=100.3 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=17.9 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=120.6 ty=16.9
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=100.3 ty=16.9
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=80.5 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=38.2 ty=16.9
+  tick[1]: 15 parts
+    0004 src=(1188,473,174x64) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=0.0 ty=0.0
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=17.9 ty=16.9
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=38.2 ty=32.4
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=60.0 ty=16.9
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=60.0 ty=32.4
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=80.5 ty=16.9
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=120.6 ty=32.4
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=142.4 ty=16.9
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=142.4 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=100.3 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=17.9 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=120.6 ty=16.9
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=100.3 ty=16.9
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=80.5 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=38.2 ty=16.9
+  tick[2]: 15 parts
+    0004 src=(1188,473,174x64) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=0.0 ty=0.0
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=17.9 ty=16.9
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=38.2 ty=32.4
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=60.0 ty=16.9
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=60.0 ty=32.4
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=80.5 ty=16.9
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=120.6 ty=32.4
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=142.4 ty=16.9
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=142.4 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=100.3 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=17.9 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=120.6 ty=16.9
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=100.3 ty=16.9
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=80.5 ty=32.4
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=38.2 ty=16.9
+[DIAG-PRC] bbox=(0.0,0.0)-(174.0,64.0) cell=174x64 ticks=331
+[DIAG-PRC] unique=11 totalTicks=331
+[DIAG-PRC] atlas=696x192 cols=4 maxCells=12 unique=11 overflow=False
+[DIAG] Result 'electric panel': 331 frames, cell=174x64, origin=(-0.0,-0.0), tex=696x192
+[DIAG] RenderRawComposites 'default': 331 ticks, atlas=1389x638
+  tick[0]: 21 parts
+    0000 src=(0,0,1389x333) rot=False a=1.000 b=0.000 c=0.000 d=0.902 tx=-699.6 ty=32.1
+    0001 src=(0,338,1183x276) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=-503.6 ty=-111.6
+    0003 src=(1188,338,198x130) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=1256.2 ty=-129.6
+    0002 src=(1188,542,89x86) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=945.0 ty=-84.6
+    0004 src=(1188,473,174x64) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=617.2 ty=201.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=631.7 ty=214.6
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=652.0 ty=230.1
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=673.8 ty=214.6
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=673.8 ty=230.1
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=694.3 ty=214.6
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=734.4 ty=230.1
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=756.2 ty=214.6
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=756.2 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=714.1 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=631.7 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=734.4 ty=214.6
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=714.1 ty=214.6
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=694.3 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=652.0 ty=214.6
+    0003 src=(1188,338,198x130) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=122.0 ty=-129.6
+    0002 src=(1188,542,89x86) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=433.2 ty=-84.6
+  tick[1]: 21 parts
+    0000 src=(0,0,1389x333) rot=False a=1.000 b=0.000 c=0.000 d=0.902 tx=-699.6 ty=32.1
+    0001 src=(0,338,1183x276) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=-503.6 ty=-111.6
+    0003 src=(1188,338,198x130) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=1256.2 ty=-129.6
+    0002 src=(1188,542,89x86) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=945.0 ty=-84.6
+    0004 src=(1188,473,174x64) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=617.2 ty=201.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=631.7 ty=214.6
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=652.0 ty=230.1
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=673.8 ty=214.6
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=673.8 ty=230.1
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=694.3 ty=214.6
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=734.4 ty=230.1
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=756.2 ty=214.6
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=756.2 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=714.1 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=631.7 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=734.4 ty=214.6
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=714.1 ty=214.6
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=694.3 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=652.0 ty=214.6
+    0003 src=(1188,338,198x130) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=122.0 ty=-129.6
+    0002 src=(1188,542,89x86) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=433.2 ty=-84.6
+  tick[2]: 21 parts
+    0000 src=(0,0,1389x333) rot=False a=1.000 b=0.000 c=0.000 d=0.902 tx=-699.6 ty=32.1
+    0001 src=(0,338,1183x276) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=-503.6 ty=-111.6
+    0003 src=(1188,338,198x130) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=1256.2 ty=-129.6
+    0002 src=(1188,542,89x86) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=945.0 ty=-84.6
+    0004 src=(1188,473,174x64) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=617.2 ty=201.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=631.7 ty=214.6
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=652.0 ty=230.1
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=673.8 ty=214.6
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=673.8 ty=230.1
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=694.3 ty=214.6
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=734.4 ty=230.1
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=756.2 ty=214.6
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=756.2 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=714.1 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=631.7 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=734.4 ty=214.6
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=714.1 ty=214.6
+    0006 src=(0,631,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=694.3 ty=230.1
+    0005 src=(0,619,7x7) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=652.0 ty=214.6
+    0003 src=(1188,338,198x130) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=122.0 ty=-129.6
+    0002 src=(1188,542,89x86) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=433.2 ty=-84.6
+[DIAG-PRC] bbox=(-699.6,-129.6)-(1256.2,332.4) cell=1956x463 ticks=331
+[DIAG-PRC] unique=11 totalTicks=331
+[DIAG-PRC] atlas=3912x2778 cols=2 maxCells=12 unique=11 overflow=False
+[DIAG] Result 'default': 331 frames, cell=1956x463, origin=(699.6,129.6), tex=3912x2778
+[DIAG] RenderRawComposites 'back speaker 1 animated': 15 ticks, atlas=229x456
+  tick[0]: 1 parts
+    0000 src=(0,0,188x335) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=-2.2 ty=-13.8
+  tick[1]: 1 parts
+    0000 src=(0,0,188x335) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=-2.2 ty=-13.8
+  tick[2]: 1 parts
+    0000 src=(0,0,188x335) rot=False a=0.963 b=0.000 c=0.000 d=0.963 tx=-0.6 ty=-4.0
+[DIAG-PRC] bbox=(-2.2,-13.8)-(185.8,321.2) cell=188x335 ticks=15
+[DIAG-PRC] unique=4 totalTicks=15
+[DIAG-PRC] atlas=376x670 cols=2 maxCells=4 unique=4 overflow=False
+[DIAG] Result 'back speaker 1 animated': 15 frames, cell=188x335, origin=(2.2,13.8), tex=376x670
+[DIAG] RenderRawComposites 'back speaker 2 animated': 15 ticks, atlas=229x456
+  tick[0]: 1 parts
+    0001 src=(0,339,229x117) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=-5.3 ty=-5.8
+  tick[1]: 1 parts
+    0001 src=(0,339,229x117) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=-5.3 ty=-5.8
+  tick[2]: 1 parts
+    0001 src=(0,339,229x117) rot=False a=0.974 b=0.000 c=0.000 d=0.974 tx=-2.7 ty=-2.9
+[DIAG-PRC] bbox=(-5.3,-5.8)-(223.6,111.2) cell=229x117 ticks=15
+[DIAG-PRC] unique=4 totalTicks=15
+[DIAG-PRC] atlas=458x234 cols=2 maxCells=4 unique=4 overflow=False
+[DIAG] Result 'back speaker 2 animated': 15 frames, cell=229x117, origin=(5.3,5.8), tex=458x234
+[DIAG] RenderRawComposites 'default': 15 ticks, atlas=229x456
+  tick[0]: 4 parts
+    0000 src=(0,0,188x335) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=-131.1 ty=-419.1
+    0001 src=(0,339,229x117) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=38.8 ty=29.5
+    0000 src=(0,0,188x335) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=1567.9 ty=-419.1
+    0001 src=(0,339,229x117) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=1392.6 ty=29.5
+  tick[1]: 4 parts
+    0000 src=(0,0,188x335) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=-131.1 ty=-419.1
+    0001 src=(0,339,229x117) rot=False a=1.000 b=0.000 c=0.000 d=1.000 tx=38.8 ty=29.5
+    0000 src=(0,0,188x335) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=1567.9 ty=-419.1
+    0001 src=(0,339,229x117) rot=False a=-1.000 b=0.000 c=0.000 d=1.000 tx=1392.6 ty=29.5
+  tick[2]: 4 parts
+    0000 src=(0,0,188x335) rot=False a=0.963 b=0.000 c=0.000 d=0.963 tx=-128.0 ty=-399.4
+    0001 src=(0,339,229x117) rot=False a=0.974 b=0.000 c=0.000 d=0.974 tx=44.1 ty=35.2
+    0000 src=(0,0,188x335) rot=False a=-0.963 b=0.000 c=0.000 d=0.963 tx=1564.7 ty=-399.4
+    0001 src=(0,339,229x117) rot=False a=-0.974 b=0.000 c=0.000 d=0.974 tx=1387.3 ty=35.2
+[DIAG-PRC] bbox=(-131.1,-419.1)-(1567.9,151.9) cell=1699x571 ticks=15
+[DIAG-PRC] unique=4 totalTicks=15
+[DIAG-PRC] atlas=3398x1142 cols=2 maxCells=4 unique=4 overflow=False
+[DIAG] Result 'default': 15 frames, cell=1699x571, origin=(131.1,419.1), tex=3398x1142
+[DIAG] RenderRawComposites 'name bar': 1 ticks, atlas=1401x100
+  tick[0]: 1 parts
+    0000 src=(0,0,1401x100) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=0.0 ty=0.0
+[DIAG-PRC] bbox=(0.0,0.0)-(1386.9,99.0) cell=1387x99 ticks=1
+[DIAG-PRC] unique=1 totalTicks=1
+[DIAG-PRC] atlas=1387x99 cols=1 maxCells=1 unique=1 overflow=False
+[DIAG] Result 'name bar': 1 frames, cell=1387x99, origin=(-0.0,-0.0), tex=1387x99
+[DIAG] RenderRawComposites 'default': 4 ticks, atlas=1401x100
+  tick[0]: 1 parts
+    0000 src=(0,0,1401x100) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=-693.2 ty=-49.2
+  tick[1]: 1 parts
+    0000 src=(0,0,1401x100) rot=False a=0.990 b=0.000 c=0.000 d=0.975 tx=-693.2 ty=-47.8
+  tick[2]: 1 parts
+    0000 src=(0,0,1401x100) rot=False a=0.990 b=0.000 c=0.000 d=1.000 tx=-693.2 ty=-50.2
+[DIAG-PRC] bbox=(-693.2,-50.2)-(693.7,49.7) cell=1387x100 ticks=4
+[DIAG-PRC] unique=4 totalTicks=4
+[DIAG-PRC] atlas=2774x200 cols=2 maxCells=4 unique=4 overflow=False
+[DIAG] Result 'default': 4 frames, cell=1387x100, origin=(693.2,50.2), tex=2774x200
+[DIAG] RenderRawComposites 'Enter': 18 ticks, atlas=987x633
+  tick[0]: 1 parts
+    0000 src=(1,1,447x413) rot=False a=0.966 b=0.000 c=-0.258 d=0.966 tx=1071.9 ty=-197.5
+  tick[1]: 1 parts
+    0000 src=(1,1,447x413) rot=False a=0.966 b=0.000 c=-0.007 d=0.966 tx=762.7 ty=-197.5
+  tick[2]: 1 parts
+    0001 src=(449,1,332x413) rot=False a=1.000 b=0.000 c=0.025 d=0.934 tx=546.0 ty=-150.0
+[DIAG-PRC] bbox=(288.2,-197.5)-(1503.8,494.7) cell=1216x693 ticks=18
+[DIAG-PRC] unique=11 totalTicks=18
+[DIAG-PRC] atlas=3648x2772 cols=3 maxCells=12 unique=11 overflow=False
+[DIAG] Result 'Enter': 18 frames, cell=1216x693, origin=(-288.2,197.5), tex=3648x2772
+[DIAG] Saved debug_bf_enter_composite.png (3648x2772)
+[DIAG] RenderRawComposites 'Idle': 14 ticks, atlas=987x633
+  tick[0]: 10 parts
+    0010 src=(782,1,204x253) rot=True a=0.940 b=0.000 c=0.000 d=0.940 tx=751.0 ty=302.9
+    0002 src=(493,499,108x81) rot=False a=0.986 b=-0.048 c=0.116 d=0.983 tx=796.6 ty=252.2
+    0003 src=(295,543,80x89) rot=False a=0.990 b=0.000 c=0.037 d=0.954 tx=945.6 ty=302.9
+    0004 src=(1,415,147x184) rot=False a=0.990 b=0.000 c=0.000 d=0.979 tx=817.4 ty=197.2
+    0005 src=(149,415,145x148) rot=False a=0.990 b=0.000 c=0.040 d=0.932 tx=673.0 ty=266.3
+    0006 src=(379,502,99x76) rot=False a=0.989 b=-0.022 c=0.021 d=0.927 tx=820.0 ty=334.5
+    0007 src=(782,255,199x158) rot=False a=0.984 b=-0.102 c=0.102 d=0.984 tx=692.0 ty=148.2
+    0008 src=(712,415,59x63) rot=False a=0.990 b=0.000 c=0.037 d=0.954 tx=933.5 ty=281.1
+    0009 src=(602,501,108x73) rot=False a=0.984 b=-0.102 c=0.102 d=0.984 tx=878.4 ty=237.8
+    0011 src=(379,415,113x86) rot=False a=0.984 b=-0.102 c=0.102 d=0.984 tx=789.8 ty=236.7
+  tick[1]: 10 parts
+    0010 src=(782,1,204x253) rot=True a=0.943 b=0.000 c=0.000 d=0.937 tx=752.6 ty=207.3
+    0002 src=(493,499,108x81) rot=False a=0.986 b=-0.048 c=0.116 d=0.983 tx=796.6 ty=252.2
+    0003 src=(295,543,80x89) rot=False a=0.990 b=0.000 c=0.037 d=0.954 tx=945.6 ty=302.9
+    0004 src=(1,415,147x184) rot=False a=0.990 b=0.000 c=0.000 d=0.979 tx=817.4 ty=197.2
+    0005 src=(149,415,145x148) rot=False a=0.990 b=0.000 c=0.040 d=0.932 tx=673.0 ty=266.3
+    0006 src=(379,502,99x76) rot=False a=0.989 b=-0.022 c=0.021 d=0.927 tx=820.0 ty=334.5
+    0007 src=(782,255,199x158) rot=False a=0.984 b=-0.102 c=0.102 d=0.984 tx=692.0 ty=148.2
+    0008 src=(712,415,59x63) rot=False a=0.990 b=0.000 c=0.037 d=0.954 tx=933.5 ty=281.1
+    0009 src=(602,501,108x73) rot=False a=0.984 b=-0.102 c=0.102 d=0.984 tx=878.4 ty=237.8
+    0011 src=(379,415,113x86) rot=False a=0.984 b=-0.102 c=0.102 d=0.984 tx=789.8 ty=236.7
+  tick[2]: 10 parts
+    0010 src=(782,1,204x253) rot=True a=0.943 b=0.000 c=0.000 d=0.937 tx=752.6 ty=207.3
+    0002 src=(493,499,108x81) rot=False a=0.988 b=0.000 c=0.030 d=0.988 tx=833.1 ty=278.0
+    0003 src=(295,543,80x89) rot=False a=0.970 b=0.000 c=0.030 d=0.966 tx=946.9 ty=300.6
+    0004 src=(1,415,147x184) rot=False a=0.990 b=0.000 c=0.000 d=0.984 tx=838.6 ty=228.7
+    0005 src=(149,415,145x148) rot=False a=0.965 b=0.000 c=0.016 d=0.954 tx=732.7 ty=225.1
+    0006 src=(379,502,99x76) rot=False a=0.987 b=0.079 c=-0.074 d=0.925 tx=834.1 ty=346.1
+    0007 src=(782,255,199x158) rot=False a=0.979 b=-0.145 c=0.145 d=0.979 tx=685.8 ty=158.7
+    0008 src=(712,415,59x63) rot=False a=0.970 b=0.000 c=0.030 d=0.966 tx=935.0 ty=278.5
+    0009 src=(602,501,108x73) rot=False a=0.979 b=-0.145 c=0.145 d=0.979 tx=876.0 ty=240.0
+    0011 src=(379,415,113x86) rot=False a=0.979 b=-0.145 c=0.145 d=0.979 tx=787.5 ty=242.7
+[DIAG-PRC] bbox=(673.0,113.9)-(1028.6,494.7) cell=356x381 ticks=14
+[DIAG-PRC] unique=8 totalTicks=14
+[DIAG-PRC] atlas=1068x1143 cols=3 maxCells=9 unique=8 overflow=False
+[DIAG] Result 'Idle': 14 frames, cell=356x381, origin=(-673.0,-113.9), tex=1068x1143
+[DIAG] Saved debug_bf_idle_composite.png (1068x1143)
+[DIAG] RenderRawComposites 'Confirm': 4 ticks, atlas=987x633
+  tick[0]: 11 parts
+    0010 src=(782,1,204x253) rot=True a=0.940 b=0.000 c=0.000 d=0.940 tx=751.0 ty=302.9
+    0005 src=(149,415,145x148) rot=False a=0.965 b=0.099 c=0.000 d=0.965 tx=685.8 ty=258.1
+    0002 src=(493,499,108x81) rot=False a=0.981 b=-0.109 c=0.109 d=0.981 tx=826.5 ty=293.1
+    0004 src=(1,415,147x184) rot=False a=0.989 b=0.035 c=-0.035 d=0.989 tx=852.5 ty=362.5
+    0006 src=(379,502,99x76) rot=False a=0.960 b=-0.064 c=0.064 d=0.960 tx=817.0 ty=322.6
+    0007 src=(782,255,199x158) rot=False a=0.975 b=-0.170 c=0.170 d=0.975 tx=681.8 ty=161.2
+    0008 src=(712,415,59x63) rot=False a=0.964 b=-0.107 c=0.107 d=0.964 tx=929.0 ty=281.0
+    0012 src=(149,564,52x58) rot=False a=0.994 b=-0.110 c=0.110 d=0.994 tx=944.6 ty=304.4
+    0009 src=(602,501,108x73) rot=False a=0.975 b=-0.170 c=0.170 d=0.975 tx=873.8 ty=237.7
+    0013 src=(295,415,83x127) rot=False a=0.994 b=-0.111 c=0.111 d=0.994 tx=889.9 ty=146.1
+    0014 src=(493,415,110x83) rot=False a=0.990 b=-0.125 c=0.092 d=0.994 tx=784.4 ty=218.1
+  tick[1]: 11 parts
+    0010 src=(782,1,204x253) rot=True a=0.940 b=0.000 c=0.000 d=0.940 tx=751.0 ty=302.9
+    0005 src=(149,415,145x148) rot=False a=0.965 b=0.099 c=0.000 d=0.965 tx=685.8 ty=258.1
+    0002 src=(493,499,108x81) rot=False a=0.981 b=-0.109 c=0.109 d=0.981 tx=826.5 ty=293.1
+    0004 src=(1,415,147x184) rot=False a=0.989 b=0.035 c=-0.035 d=0.989 tx=852.5 ty=362.5
+    0006 src=(379,502,99x76) rot=False a=0.960 b=-0.064 c=0.064 d=0.960 tx=817.0 ty=322.6
+    0007 src=(782,255,199x158) rot=False a=0.975 b=-0.170 c=0.170 d=0.975 tx=681.8 ty=161.2
+    0008 src=(712,415,59x63) rot=False a=0.964 b=-0.107 c=0.107 d=0.964 tx=929.0 ty=281.0
+    0012 src=(149,564,52x58) rot=False a=0.994 b=-0.110 c=0.110 d=0.994 tx=944.6 ty=304.4
+    0009 src=(602,501,108x73) rot=False a=0.975 b=-0.170 c=0.170 d=0.975 tx=873.8 ty=237.7
+    0013 src=(295,415,83x127) rot=False a=0.994 b=-0.111 c=0.111 d=0.994 tx=889.9 ty=146.1
+    0014 src=(493,415,110x83) rot=False a=0.990 b=-0.125 c=0.092 d=0.994 tx=784.4 ty=218.1
+  tick[2]: 11 parts
+    0010 src=(782,1,204x253) rot=True a=0.940 b=0.000 c=0.000 d=0.940 tx=751.0 ty=302.9
+    0005 src=(149,415,145x148) rot=False a=0.965 b=0.059 c=0.000 d=0.965 tx=686.6 ty=266.2
+    0002 src=(493,499,108x81) rot=False a=0.984 b=-0.082 c=0.082 d=0.984 tx=829.1 ty=289.2
+    0004 src=(1,415,147x184) rot=False a=0.989 b=0.035 c=-0.035 d=0.989 tx=852.5 ty=362.5
+    0006 src=(379,502,99x76) rot=False a=0.960 b=-0.064 c=0.064 d=0.960 tx=817.8 ty=321.4
+    0007 src=(782,255,199x158) rot=False a=0.983 b=-0.113 c=0.113 d=0.983 tx=693.7 ty=145.2
+    0008 src=(712,415,59x63) rot=False a=0.967 b=-0.081 c=0.081 d=0.967 tx=931.9 ty=280.1
+    0012 src=(149,564,52x58) rot=False a=0.923 b=-0.077 c=0.077 d=0.923 tx=955.7 ty=313.5
+    0009 src=(602,501,108x73) rot=False a=0.983 b=-0.113 c=0.113 d=0.983 tx=881.1 ty=232.6
+    0013 src=(295,415,83x127) rot=False a=0.882 b=-0.074 c=0.074 d=0.882 tx=913.7 ty=169.1
+    0015 src=(604,415,107x85) rot=False a=0.993 b=-0.114 c=0.114 d=0.993 tx=792.3 ty=232.2
+[DIAG-PRC] bbox=(681.8,122.7)-(1008.2,549.7) cell=327x427 ticks=4
+[DIAG-PRC] unique=2 totalTicks=4
+[DIAG-PRC] atlas=654x427 cols=2 maxCells=2 unique=2 overflow=False
+[DIAG] Result 'Confirm': 4 frames, cell=327x427, origin=(-681.8,-122.7), tex=654x427
+[DIAG] Saved debug_bf_confirm_composite.png (654x427)
+[DIAG] RenderRawComposites 'Cancel': 10 ticks, atlas=987x633
+  tick[0]: 11 parts
+    0010 src=(782,1,204x253) rot=True a=0.940 b=0.000 c=0.000 d=0.940 tx=443.7 ty=252.2
+    0005 src=(149,415,145x148) rot=False a=0.965 b=0.059 c=0.000 d=0.965 tx=379.4 ty=215.5
+    0002 src=(493,499,108x81) rot=False a=0.982 b=-0.104 c=0.104 d=0.982 tx=497.1 ty=211.5
+    0004 src=(1,415,147x184) rot=False a=0.988 b=0.062 c=-0.062 d=0.988 tx=545.9 ty=309.4
+    0006 src=(379,502,99x76) rot=False a=0.960 b=0.068 c=-0.068 d=0.960 tx=552.3 ty=284.7
+    0016 src=(782,414,197x156) rot=False a=0.981 b=-0.192 c=0.192 d=0.981 tx=372.9 ty=118.8
+    0008 src=(712,415,59x63) rot=False a=0.969 b=-0.038 c=0.038 d=0.969 tx=627.3 ty=228.9
+    0012 src=(149,564,52x58) rot=False a=0.906 b=-0.191 c=0.191 d=0.906 tx=630.0 ty=255.7
+    0009 src=(602,501,108x73) rot=False a=0.965 b=-0.216 c=0.216 d=0.965 tx=567.1 ty=193.6
+    0013 src=(295,415,83x127) rot=False a=0.788 b=-0.400 c=0.400 d=0.788 tx=540.8 ty=173.1
+    0017 src=(712,479,67x47) rot=False a=0.997 b=-0.079 c=0.079 d=0.997 tx=545.1 ty=236.5
+  tick[1]: 11 parts
+    0010 src=(782,1,204x253) rot=True a=0.940 b=0.000 c=0.000 d=0.940 tx=443.7 ty=252.2
+    0005 src=(149,415,145x148) rot=False a=0.965 b=0.059 c=0.000 d=0.965 tx=379.4 ty=215.5
+    0002 src=(493,499,108x81) rot=False a=0.982 b=-0.104 c=0.104 d=0.982 tx=497.1 ty=211.5
+    0004 src=(1,415,147x184) rot=False a=0.988 b=0.062 c=-0.062 d=0.988 tx=545.9 ty=309.4
+    0006 src=(379,502,99x76) rot=False a=0.960 b=0.068 c=-0.068 d=0.960 tx=552.3 ty=284.7
+    0016 src=(782,414,197x156) rot=False a=0.981 b=-0.192 c=0.192 d=0.981 tx=372.9 ty=118.8
+    0008 src=(712,415,59x63) rot=False a=0.969 b=-0.038 c=0.038 d=0.969 tx=627.3 ty=228.9
+    0012 src=(149,564,52x58) rot=False a=0.906 b=-0.191 c=0.191 d=0.906 tx=630.0 ty=255.7
+    0009 src=(602,501,108x73) rot=False a=0.965 b=-0.216 c=0.216 d=0.965 tx=567.1 ty=193.6
+    0013 src=(295,415,83x127) rot=False a=0.788 b=-0.400 c=0.400 d=0.788 tx=540.8 ty=173.1
+    0017 src=(712,479,67x47) rot=False a=0.997 b=-0.079 c=0.079 d=0.997 tx=545.1 ty=236.5
+  tick[2]: 11 parts
+    0010 src=(782,1,204x253) rot=True a=0.940 b=0.000 c=0.000 d=0.940 tx=443.7 ty=252.2
+    0005 src=(149,415,145x148) rot=False a=0.965 b=0.059 c=0.000 d=0.965 tx=379.4 ty=215.5
+    0002 src=(493,499,108x81) rot=False a=0.982 b=-0.104 c=0.104 d=0.982 tx=497.1 ty=211.5
+    0004 src=(1,415,147x184) rot=False a=0.988 b=0.062 c=-0.062 d=0.988 tx=545.9 ty=309.4
+    0006 src=(379,502,99x76) rot=False a=0.962 b=-0.021 c=0.021 d=0.962 tx=549.1 ty=286.8
+    0016 src=(782,414,197x156) rot=False a=0.986 b=-0.166 c=0.166 d=0.986 tx=377.3 ty=110.4
+    0008 src=(712,415,59x63) rot=False a=0.969 b=-0.038 c=0.038 d=0.969 tx=627.3 ty=228.9
+    0012 src=(149,564,52x58) rot=False a=0.906 b=-0.191 c=0.191 d=0.906 tx=630.0 ty=255.7
+    0009 src=(602,501,108x73) rot=False a=0.971 b=-0.190 c=0.190 d=0.971 tx=569.5 ty=190.2
+    0013 src=(295,415,83x127) rot=False a=0.829 b=-0.308 c=0.308 d=0.829 tx=557.6 ty=155.5
+    0017 src=(712,479,67x47) rot=False a=0.998 b=-0.053 c=0.053 d=0.998 tx=546.5 ty=232.6
+[DIAG-PRC] bbox=(372.9,77.6)-(691.1,500.2) cell=319x423 ticks=10
+[DIAG-PRC] unique=3 totalTicks=10
+[DIAG-PRC] atlas=638x846 cols=2 maxCells=4 unique=3 overflow=False
+[DIAG] Result 'Cancel': 10 frames, cell=319x423, origin=(-372.9,-77.6), tex=638x846
+[DIAG] Saved debug_bf_cancel_composite.png (638x846)
+[DIAG] RenderRawComposites 'Exit': 2 ticks, atlas=987x633
+  tick[0]: 10 parts
+    0010 src=(782,1,204x253) rot=True a=0.940 b=0.000 c=-0.059 d=0.940 tx=466.2 ty=53.8
+    0002 src=(493,499,108x81) rot=False a=0.988 b=0.000 c=-0.062 d=0.988 tx=552.4 ty=26.5
+    0007 src=(782,255,199x158) rot=False a=0.990 b=0.000 c=-0.062 d=0.990 tx=447.0 ty=-135.2
+    0003 src=(295,543,80x89) rot=False a=0.970 b=0.000 c=-0.061 d=0.970 tx=666.4 ty=50.9
+    0004 src=(1,415,147x184) rot=False a=0.990 b=0.000 c=-0.062 d=0.990 tx=560.9 ty=36.0
+    0008 src=(712,415,59x63) rot=False a=0.970 b=0.000 c=-0.061 d=0.970 tx=656.6 ty=28.6
+    0009 src=(602,501,108x73) rot=False a=0.990 b=0.000 c=-0.062 d=0.990 tx=616.7 ty=-26.9
+    0011 src=(379,415,113x86) rot=False a=0.990 b=0.000 c=-0.062 d=0.990 tx=529.2 ty=-37.0
+    0005 src=(149,415,145x148) rot=False a=0.965 b=0.000 c=-0.061 d=0.965 tx=453.1 ty=41.2
+    0006 src=(379,502,99x76) rot=False a=0.963 b=0.000 c=-0.061 d=0.963 tx=536.8 ty=64.3
+  tick[1]: 1 parts
+    0000 src=(1,1,447x413) rot=False a=0.966 b=0.000 c=-0.214 d=0.966 tx=691.0 ty=-197.5
+[DIAG-PRC] bbox=(437.2,-197.5)-(1122.8,245.6) cell=686x444 ticks=2
+[DIAG-PRC] unique=2 totalTicks=2
+[DIAG-PRC] atlas=1372x444 cols=2 maxCells=2 unique=2 overflow=False
+[DIAG] Result 'Exit': 2 frames, cell=686x444, origin=(-437.2,197.5), tex=1372x444
+[DIAG] Saved debug_bf_exit_composite.png (1372x444)
+[DIAG] RenderRawComposites 'Enter': 18 ticks, atlas=1004x565
+  tick[0]: 1 parts
+    0000 src=(1,1,409x369) rot=False a=0.969 b=0.000 c=-0.228 d=0.969 tx=954.7 ty=-109.8
+  tick[1]: 1 parts
+    0000 src=(1,1,409x369) rot=False a=0.969 b=0.000 c=0.000 d=0.969 tx=690.8 ty=-106.6
+  tick[2]: 1 parts
+    0001 src=(411,1,301x394) rot=False a=1.000 b=0.000 c=0.083 d=0.958 tx=564.4 ty=-108.9
+[DIAG-PRC] bbox=(564.4,-199.6)-(1395.2,370.9) cell=831x571 ticks=18
+[DIAG-PRC] unique=9 totalTicks=18
+[DIAG-PRC] atlas=2493x1713 cols=3 maxCells=9 unique=9 overflow=False
+[DIAG] Result 'Enter': 18 frames, cell=831x571, origin=(-564.4,199.6), tex=2493x1713
+[DIAG] RenderRawComposites 'Idle': 14 ticks, atlas=1004x565
+  tick[0]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.962 b=0.000 c=0.000 d=0.923 tx=1225.8 ty=260.9
+    0003 src=(1,371,133x91) rot=False a=-0.997 b=0.031 c=0.031 d=0.997 tx=1202.3 ty=111.5
+    0004 src=(1,463,77x73) rot=False a=-0.977 b=0.047 c=0.047 d=0.977 tx=1142.8 ty=162.6
+    0005 src=(713,1,290x165) rot=False a=-0.998 b=0.013 c=0.000 d=0.986 tx=1286.0 ty=102.3
+    0006 src=(908,346,76x161) rot=False a=-0.998 b=0.000 c=0.000 d=0.998 tx=1238.9 ty=115.4
+    0007 src=(495,396,78x79) rot=False a=-0.997 b=-0.018 c=-0.018 d=0.997 tx=1204.6 ty=213.5
+    0008 src=(713,167,195x156) rot=False a=-0.995 b=0.071 c=0.071 d=0.995 tx=1280.2 ty=-29.6
+    0009 src=(495,476,57x88) rot=True a=-0.995 b=0.071 c=0.071 d=0.995 tx=1152.2 ty=119.6
+  tick[1]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.962 b=0.000 c=0.000 d=0.923 tx=1225.8 ty=260.9
+    0003 src=(1,371,133x91) rot=False a=-0.997 b=0.031 c=0.031 d=0.997 tx=1202.3 ty=111.5
+    0004 src=(1,463,77x73) rot=False a=-0.977 b=0.047 c=0.047 d=0.977 tx=1142.8 ty=162.6
+    0005 src=(713,1,290x165) rot=False a=-0.998 b=0.013 c=0.000 d=0.986 tx=1286.0 ty=102.3
+    0006 src=(908,346,76x161) rot=False a=-0.998 b=0.000 c=0.000 d=0.998 tx=1238.9 ty=115.4
+    0007 src=(495,396,78x79) rot=False a=-0.997 b=-0.018 c=-0.018 d=0.997 tx=1204.6 ty=213.5
+    0008 src=(713,167,195x156) rot=False a=-0.995 b=0.071 c=0.071 d=0.995 tx=1280.2 ty=-29.6
+    0009 src=(495,476,57x88) rot=True a=-0.995 b=0.071 c=0.071 d=0.995 tx=1152.2 ty=119.6
+  tick[2]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.953 b=0.000 c=0.000 d=0.933 tx=1224.2 ty=258.9
+    0003 src=(1,371,133x91) rot=False a=-0.998 b=0.013 c=0.013 d=0.998 tx=1204.9 ty=111.4
+    0004 src=(1,463,77x73) rot=False a=-0.977 b=0.025 c=0.025 d=0.977 tx=1144.0 ty=161.9
+    0005 src=(713,1,290x165) rot=False a=-0.998 b=0.008 c=0.000 d=0.986 tx=1286.0 ty=102.6
+    0006 src=(908,346,76x161) rot=False a=-0.998 b=0.000 c=0.000 d=0.998 tx=1238.9 ty=114.2
+    0007 src=(495,396,78x79) rot=False a=-0.994 b=-0.087 c=-0.087 d=0.994 tx=1205.6 ty=218.8
+    0008 src=(713,167,195x156) rot=False a=-0.991 b=0.115 c=0.115 d=0.991 tx=1271.3 ty=-38.5
+    0009 src=(495,476,57x88) rot=True a=-0.991 b=0.115 c=0.115 d=0.991 tx=1150.3 ty=116.1
+[DIAG-PRC] bbox=(996.6,-38.5)-(1395.2,370.9) cell=399x410 ticks=14
+[DIAG-PRC] unique=6 totalTicks=14
+[DIAG-PRC] atlas=1197x820 cols=3 maxCells=6 unique=6 overflow=False
+[DIAG] Result 'Idle': 14 frames, cell=399x410, origin=(-996.6,38.5), tex=1197x820
+[DIAG] RenderRawComposites 'Confirm': 4 ticks, atlas=1004x565
+  tick[0]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.976 b=0.000 c=0.000 d=0.918 tx=1090.8 ty=442.9
+    0003 src=(1,371,133x91) rot=False a=-0.997 b=0.033 c=0.033 d=0.997 tx=1068.3 ty=292.5
+    0004 src=(1,463,77x73) rot=False a=-0.967 b=0.145 c=0.145 d=0.967 tx=1007.8 ty=323.4
+    0005 src=(713,1,290x165) rot=False a=-0.999 b=0.011 c=0.000 d=0.983 tx=1133.9 ty=273.1
+    0006 src=(908,346,76x161) rot=False a=-0.997 b=-0.040 c=-0.040 d=0.997 tx=1111.6 ty=373.0
+    0008 src=(713,167,195x156) rot=False a=-0.989 b=0.131 c=0.131 d=0.989 tx=1114.3 ty=137.6
+    0010 src=(574,459,97x58) rot=False a=-0.990 b=0.128 c=0.128 d=0.990 tx=1006.7 ty=294.1
+    0012 src=(313,371,87x126) rot=False a=-0.999 b=0.040 c=0.040 d=0.999 tx=1060.4 ty=204.3
+  tick[1]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.976 b=0.000 c=0.000 d=0.918 tx=1090.8 ty=442.9
+    0003 src=(1,371,133x91) rot=False a=-0.997 b=0.033 c=0.033 d=0.997 tx=1068.3 ty=292.5
+    0004 src=(1,463,77x73) rot=False a=-0.967 b=0.145 c=0.145 d=0.967 tx=1007.8 ty=323.4
+    0005 src=(713,1,290x165) rot=False a=-0.999 b=0.011 c=0.000 d=0.983 tx=1133.9 ty=273.1
+    0006 src=(908,346,76x161) rot=False a=-0.997 b=-0.040 c=-0.040 d=0.997 tx=1111.6 ty=373.0
+    0008 src=(713,167,195x156) rot=False a=-0.989 b=0.131 c=0.131 d=0.989 tx=1114.3 ty=137.6
+    0010 src=(574,459,97x58) rot=False a=-0.990 b=0.128 c=0.128 d=0.990 tx=1006.7 ty=294.1
+    0012 src=(313,371,87x126) rot=False a=-0.999 b=0.040 c=0.040 d=0.999 tx=1060.4 ty=204.3
+  tick[2]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.958 b=0.000 c=0.000 d=0.933 tx=1087.4 ty=440.0
+    0003 src=(1,371,133x91) rot=False a=-0.998 b=0.023 c=0.023 d=0.998 tx=1069.6 ty=292.1
+    0004 src=(1,463,77x73) rot=False a=-0.974 b=0.086 c=0.086 d=0.974 tx=1013.8 ty=325.9
+    0005 src=(713,1,290x165) rot=False a=-0.992 b=0.006 c=0.000 d=0.992 tx=1125.2 ty=290.5
+    0006 src=(908,346,76x161) rot=False a=-0.997 b=-0.031 c=-0.031 d=0.997 tx=1111.1 ty=370.3
+    0008 src=(713,167,195x156) rot=False a=-0.993 b=0.096 c=0.096 d=0.993 tx=1125.0 ty=140.4
+    0011 src=(574,396,96x62) rot=False a=-0.995 b=0.096 c=0.096 d=0.995 tx=1009.3 ty=284.0
+    0012 src=(313,371,87x126) rot=False a=-0.952 b=0.000 c=0.000 d=0.952 tx=1061.2 ty=268.1
+[DIAG-PRC] bbox=(837.6,137.6)-(1140.0,533.5) cell=303x396 ticks=4
+[DIAG-PRC] unique=2 totalTicks=4
+[DIAG-PRC] atlas=606x396 cols=2 maxCells=2 unique=2 overflow=False
+[DIAG] Result 'Confirm': 4 frames, cell=303x396, origin=(-837.6,-137.6), tex=606x396
+[DIAG] RenderRawComposites 'Cancel': 10 ticks, atlas=1004x565
+  tick[0]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.966 b=0.000 c=0.027 d=0.923 tx=941.1 ty=261.1
+    0003 src=(1,371,133x91) rot=False a=-0.992 b=0.108 c=0.108 d=0.992 tx=914.1 ty=111.2
+    0004 src=(1,463,77x73) rot=False a=-0.966 b=0.148 c=0.148 d=0.966 tx=863.4 ty=148.6
+    0005 src=(713,1,290x165) rot=False a=-0.992 b=0.021 c=0.000 d=0.992 tx=981.2 ty=109.6
+    0006 src=(908,346,76x161) rot=False a=-0.992 b=-0.095 c=-0.095 d=0.992 tx=960.4 ty=206.1
+    0016 src=(713,324,194x156) rot=False a=-0.996 b=0.080 c=0.080 d=0.996 tx=980.2 ty=-23.7
+    0017 src=(672,481,75x63) rot=False a=0.999 b=0.016 c=-0.016 d=0.999 tx=699.2 ty=128.1
+    0015 src=(401,396,93x88) rot=False a=-0.898 b=-0.313 c=-0.313 d=0.898 tx=1003.5 ty=155.2
+  tick[1]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.966 b=0.000 c=0.027 d=0.923 tx=941.1 ty=261.1
+    0003 src=(1,371,133x91) rot=False a=-0.992 b=0.108 c=0.108 d=0.992 tx=914.1 ty=111.2
+    0004 src=(1,463,77x73) rot=False a=-0.966 b=0.148 c=0.148 d=0.966 tx=863.4 ty=148.6
+    0005 src=(713,1,290x165) rot=False a=-0.992 b=0.021 c=0.000 d=0.992 tx=981.2 ty=109.6
+    0006 src=(908,346,76x161) rot=False a=-0.992 b=-0.095 c=-0.095 d=0.992 tx=960.4 ty=206.1
+    0016 src=(713,324,194x156) rot=False a=-0.996 b=0.080 c=0.080 d=0.996 tx=980.2 ty=-23.7
+    0017 src=(672,481,75x63) rot=False a=0.999 b=0.016 c=-0.016 d=0.999 tx=699.2 ty=128.1
+    0015 src=(401,396,93x88) rot=False a=-0.898 b=-0.313 c=-0.313 d=0.898 tx=1003.5 ty=155.2
+  tick[2]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.958 b=0.000 c=0.020 d=0.933 tx=940.5 ty=259.6
+    0003 src=(1,371,133x91) rot=False a=-0.995 b=0.072 c=0.072 d=0.995 tx=918.9 ty=111.4
+    0004 src=(1,463,77x73) rot=False a=-0.968 b=0.134 c=0.134 d=0.968 tx=864.7 ty=147.8
+    0005 src=(713,1,290x165) rot=False a=-0.992 b=0.014 c=0.000 d=0.992 tx=981.2 ty=109.9
+    0006 src=(908,346,76x161) rot=False a=-0.990 b=-0.121 c=-0.121 d=0.990 tx=964.5 ty=203.7
+    0016 src=(713,324,194x156) rot=False a=-0.997 b=0.067 c=0.067 d=0.997 tx=984.5 ty=-25.8
+    0017 src=(672,481,75x63) rot=False a=0.999 b=0.030 c=-0.030 d=0.999 tx=701.5 ty=122.3
+    0015 src=(401,396,93x88) rot=False a=-0.941 b=-0.140 c=-0.140 d=0.941 tx=942.4 ty=147.6
+[DIAG-PRC] bbox=(693.6,-25.8)-(1003.5,365.9) cell=310x392 ticks=10
+[DIAG-PRC] unique=3 totalTicks=10
+[DIAG-PRC] atlas=620x784 cols=2 maxCells=4 unique=3 overflow=False
+[DIAG] Result 'Cancel': 10 frames, cell=310x392, origin=(-693.6,25.8), tex=620x784
+[DIAG] RenderRawComposites 'Exit': 2 ticks, atlas=1004x565
+  tick[0]: 8 parts
+    0002 src=(909,167,84x178) rot=True a=-0.948 b=0.000 c=-0.060 d=0.948 tx=1247.9 ty=122.3
+    0003 src=(1,371,133x91) rot=False a=-0.998 b=0.000 c=-0.064 d=0.998 tx=1305.1 ty=-33.0
+    0004 src=(1,463,77x73) rot=False a=-0.978 b=0.000 c=-0.062 d=0.978 tx=1198.0 ty=-17.4
+    0005 src=(713,1,290x165) rot=False a=-0.992 b=0.000 c=-0.063 d=0.992 tx=1428.8 ty=-13.7
+    0006 src=(908,346,76x161) rot=False a=-0.998 b=0.000 c=-0.064 d=0.998 tx=1276.6 ty=-58.3
+    0007 src=(495,396,78x79) rot=False a=-0.998 b=0.000 c=-0.064 d=0.998 tx=1232.8 ty=3.5
+    0008 src=(713,167,195x156) rot=False a=-0.998 b=0.000 c=-0.064 d=0.998 tx=1342.9 ty=-194.0
+    0009 src=(495,476,57x88) rot=True a=-0.998 b=0.000 c=-0.064 d=0.998 tx=1195.9 ty=-54.2
+  tick[1]: 1 parts
+    0000 src=(1,1,409x369) rot=False a=0.969 b=0.000 c=-0.246 d=0.969 tx=613.2 ty=-109.7
+[DIAG-PRC] bbox=(522.4,-194.0)-(1428.8,248.0) cell=907x442 ticks=2
+[DIAG-PRC] unique=2 totalTicks=2
+[DIAG-PRC] atlas=1814x442 cols=2 maxCells=2 unique=2 overflow=False
+[DIAG] Result 'Exit': 2 frames, cell=907x442, origin=(-522.4,194.0), tex=1814x442
+[DIAG] RenderRawComposites 'Enter': 10 ticks, atlas=1023x616
+  tick[0]: 28 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=0.136 d=0.983 tx=206.6 ty=301.6
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.131 d=0.946 tx=-613.8 ty=27.5
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.131 d=0.946 tx=-480.1 ty=70.0
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.131 d=0.946 tx=-435.1 ty=70.0
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.131 d=0.946 tx=-456.5 ty=70.0
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.131 d=0.946 tx=-390.3 ty=70.2
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.131 d=0.946 tx=-227.5 ty=101.1
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.131 d=0.946 tx=-122.9 ty=146.1
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=0.131 d=0.946 tx=-236.7 ty=29.8
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.125 d=0.902 tx=-181.5 ty=101.4
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.125 d=0.902 tx=-172.4 ty=182.7
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=0.131 d=0.946 tx=-766.9 ty=-134.7
+    0019 src=(309,550,76x57) rot=False a=0.895 b=0.000 c=0.124 d=0.895 tx=-578.1 ty=0.4
+    0019 src=(309,550,76x57) rot=False a=-0.895 b=0.000 c=0.124 d=0.895 tx=-284.6 ty=0.4
+    0020 src=(386,550,39x49) rot=True a=0.869 b=0.000 c=0.120 d=0.869 tx=-359.0 ty=207.0
+    0020 src=(386,550,39x49) rot=True a=-0.869 b=0.000 c=0.120 d=0.869 tx=-438.5 ty=207.0
+    0021 src=(544,415,239x147) rot=False a=0.918 b=0.000 c=0.127 d=0.918 tx=-646.2 ty=17.2
+    0000 src=(679,1,247x209) rot=False a=0.960 b=0.000 c=0.133 d=0.960 tx=-332.2 ty=15.2
+    0001 src=(927,1,93x132) rot=False a=0.934 b=0.000 c=0.129 d=0.934 tx=-148.9 ty=186.5
+    0002 src=(92,533,46x63) rot=True a=0.933 b=0.000 c=0.129 d=0.933 tx=-140.6 ty=307.7
+    0003 src=(616,288,60x115) rot=False a=0.969 b=0.000 c=0.134 d=0.969 tx=-141.4 ty=211.1
+    0002 src=(92,533,46x63) rot=True a=-0.921 b=0.066 c=0.194 d=0.930 tx=51.2 ty=297.4
+    0004 src=(544,288,71x121) rot=False a=0.969 b=0.000 c=0.134 d=0.969 tx=-101.3 ty=200.5
+    0005 src=(140,445,73x114) rot=True a=0.770 b=0.000 c=0.106 d=0.770 tx=-140.1 ty=234.6
+    0006 src=(1,445,138x87) rot=False a=0.941 b=0.000 c=0.130 d=0.941 tx=-164.5 ty=300.5
+    0007 src=(921,408,97x183) rot=True a=0.941 b=0.000 c=0.130 d=0.941 tx=-229.0 ty=291.5
+    0008 src=(679,211,208x203) rot=False a=0.969 b=0.000 c=0.134 d=0.969 tx=-290.8 ty=2.0
+    0013 src=(927,134,93x70) rot=False a=0.969 b=0.000 c=0.134 d=0.969 tx=-173.0 ty=158.6
+  tick[1]: 28 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=0.068 d=0.985 tx=342.8 ty=301.6
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.065 d=0.948 tx=-458.6 ty=26.8
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.065 d=0.948 tx=-327.8 ty=69.4
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.065 d=0.948 tx=-282.8 ty=69.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.065 d=0.948 tx=-304.2 ty=69.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.065 d=0.948 tx=-238.0 ty=69.6
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.065 d=0.948 tx=-77.4 ty=100.6
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.065 d=0.948 tx=24.1 ty=145.6
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=0.065 d=0.948 tx=-81.7 ty=29.2
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.062 d=0.904 tx=-31.4 ty=100.9
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.062 d=0.904 tx=-27.9 ty=182.4
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=0.065 d=0.948 tx=-600.5 ty=-135.8
+    0019 src=(309,550,76x57) rot=False a=0.895 b=0.000 c=0.062 d=0.897 tx=-421.0 ty=-0.4
+    0019 src=(309,550,76x57) rot=False a=-0.895 b=0.000 c=0.062 d=0.897 tx=-127.6 ty=-0.4
+    0020 src=(386,550,39x49) rot=True a=0.869 b=0.000 c=0.060 d=0.871 tx=-216.2 ty=206.7
+    0020 src=(386,550,39x49) rot=True a=-0.869 b=0.000 c=0.060 d=0.871 tx=-295.7 ty=206.7
+    0021 src=(544,415,239x147) rot=False a=0.918 b=0.000 c=0.063 d=0.921 tx=-490.3 ty=16.5
+    0000 src=(679,1,247x209) rot=False a=0.960 b=0.000 c=0.066 d=0.963 tx=-176.2 ty=14.4
+    0001 src=(927,1,93x132) rot=False a=0.934 b=0.000 c=0.064 d=0.936 tx=-4.7 ty=186.1
+    0002 src=(92,533,46x63) rot=True a=0.933 b=0.000 c=0.064 d=0.935 tx=-4.8 ty=307.6
+    0003 src=(616,288,60x115) rot=False a=0.969 b=0.000 c=0.067 d=0.971 tx=1.1 ty=210.8
+    0002 src=(92,533,46x63) rot=True a=-0.926 b=0.066 c=0.130 d=0.933 tx=187.7 ty=297.3
+    0004 src=(544,288,71x121) rot=False a=0.969 b=0.000 c=0.067 d=0.971 tx=41.9 ty=200.2
+    0005 src=(140,445,73x114) rot=True a=0.770 b=0.000 c=0.053 d=0.771 tx=0.8 ty=234.4
+    0006 src=(1,445,138x87) rot=False a=0.941 b=0.000 c=0.065 d=0.943 tx=-28.2 ty=300.5
+    0007 src=(921,408,97x183) rot=True a=0.941 b=0.000 c=0.065 d=0.943 tx=-92.1 ty=291.4
+    0008 src=(679,211,208x203) rot=False a=0.969 b=0.000 c=0.067 d=0.971 tx=-133.8 ty=1.3
+    0013 src=(927,134,93x70) rot=False a=0.969 b=0.000 c=0.067 d=0.971 tx=-26.8 ty=158.2
+  tick[2]: 29 parts
+    0009 src=(1021,1,1x14) rot=True a=1.000 b=0.000 c=0.000 d=1.000 tx=489.0 ty=311.0
+    0027 src=(246,289,62x223) rot=True a=1.000 b=0.000 c=-0.084 d=0.883 tx=-310.5 ty=66.2
+    0025 src=(986,205,5x5) rot=False a=1.000 b=0.000 c=-0.084 d=0.883 tx=-179.2 ty=105.9
+    0026 src=(992,205,5x5) rot=False a=1.000 b=0.000 c=-0.084 d=0.883 tx=-131.6 ty=105.9
+    0025 src=(986,205,5x5) rot=False a=1.000 b=0.000 c=-0.084 d=0.883 tx=-154.3 ty=105.9
+    0025 src=(986,205,5x5) rot=False a=1.000 b=0.000 c=-0.084 d=0.883 tx=-84.3 ty=106.1
+    0026 src=(992,205,5x5) rot=False a=1.000 b=0.000 c=-0.084 d=0.883 tx=-108.4 ty=105.9
+    0030 src=(309,486,116x63) rot=False a=1.000 b=0.000 c=-0.084 d=0.883 tx=80.4 ty=135.0
+    0028 src=(927,205,19x5) rot=True a=1.000 b=0.000 c=-0.084 d=0.883 tx=180.4 ty=176.9
+    0017 src=(888,211,131x196) rot=False a=1.000 b=0.000 c=-0.084 d=0.883 tx=87.4 ty=68.5
+    0016 src=(426,486,89x81) rot=False a=0.953 b=0.000 c=-0.080 d=0.841 tx=129.0 ty=135.2
+    0016 src=(426,486,89x81) rot=False a=0.953 b=0.000 c=-0.080 d=0.841 tx=119.6 ty=211.1
+    0023 src=(342,1,336x286) rot=False a=1.000 b=0.000 c=-0.084 d=0.883 tx=-434.3 ty=-85.1
+    0019 src=(309,550,76x57) rot=False a=0.946 b=0.000 c=-0.079 d=0.835 tx=-266.4 ty=40.9
+    0019 src=(309,550,76x57) rot=False a=-0.946 b=0.000 c=-0.079 d=0.835 tx=43.7 ty=40.9
+    0020 src=(386,550,39x49) rot=True a=0.918 b=0.000 c=-0.077 d=0.811 tx=-83.3 ty=233.7
+    0020 src=(386,550,39x49) rot=True a=-0.918 b=0.000 c=-0.077 d=0.811 tx=-167.4 ty=233.7
+    0021 src=(544,415,239x147) rot=False a=0.970 b=0.000 c=-0.081 d=0.857 tx=-342.4 ty=56.7
+    0000 src=(679,1,247x209) rot=False a=0.977 b=0.172 c=-0.201 d=0.923 tx=129.3 ty=155.8
+    0001 src=(927,1,93x132) rot=False a=1.000 b=0.000 c=-0.075 d=0.885 tx=249.7 ty=366.6
+    0002 src=(92,533,46x63) rot=True a=0.998 b=0.000 c=-0.038 d=0.917 tx=228.6 ty=479.3
+    0003 src=(616,288,60x115) rot=False a=1.000 b=0.000 c=-0.060 d=0.952 tx=252.8 ty=384.3
+    0002 src=(92,533,46x63) rot=True a=-0.998 b=0.064 c=0.032 d=0.914 tx=435.8 ty=469.2
+    0004 src=(544,288,71x121) rot=False a=1.000 b=0.000 c=-0.095 d=0.952 tx=305.0 ty=373.8
+    0005 src=(140,445,73x114) rot=True a=0.744 b=0.000 c=-0.034 d=0.859 tx=251.8 ty=407.5
+    0006 src=(1,445,138x87) rot=False a=1.000 b=0.000 c=-0.037 d=0.891 tx=205.8 ty=473.8
+    0007 src=(921,408,97x183) rot=True a=1.000 b=0.000 c=-0.037 d=0.901 tx=138.8 ty=464.5
+    0008 src=(679,211,208x203) rot=False a=1.000 b=-0.030 c=-0.010 d=0.953 tx=131.5 ty=190.0
+    0013 src=(927,134,93x70) rot=False a=1.000 b=-0.030 c=-0.010 d=0.953 tx=229.2 ty=341.3
+[DIAG-PRC] bbox=(-766.9,-135.8)-(503.0,551.9) cell=1270x688 ticks=10
+[DIAG-PRC] unique=6 totalTicks=10
+[DIAG-PRC] atlas=3810x1376 cols=3 maxCells=6 unique=6 overflow=False
+[DIAG] Result 'Enter': 10 frames, cell=1270x688, origin=(766.9,135.8), tex=3810x1376
+[DIAG] RenderRawComposites 'IdleLeft': 15 ticks, atlas=1023x616
+  tick[0]: 29 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=0.000 d=0.983 tx=455.1 ty=301.6
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-327.4 ty=27.5
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-199.6 ty=70.0
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-154.6 ty=70.0
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-176.0 ty=70.0
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-109.8 ty=70.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-132.6 ty=70.0
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=48.7 ty=101.1
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=147.1 ty=146.1
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=49.3 ty=29.8
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=94.6 ty=101.4
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=92.5 ty=182.7
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-458.2 ty=-134.7
+    0019 src=(309,550,76x57) rot=False a=0.895 b=0.000 c=0.000 d=0.895 tx=-288.0 ty=0.4
+    0019 src=(309,550,76x57) rot=False a=-0.895 b=0.000 c=0.000 d=0.895 tx=5.5 ty=0.4
+    0020 src=(386,550,39x49) rot=True a=0.869 b=0.000 c=0.000 d=0.869 tx=-97.4 ty=207.0
+    0020 src=(386,550,39x49) rot=True a=-0.869 b=0.000 c=0.000 d=0.869 tx=-177.0 ty=207.0
+    0021 src=(544,415,239x147) rot=False a=0.918 b=0.000 c=0.000 d=0.918 tx=-358.5 ty=17.2
+    0000 src=(679,1,247x209) rot=False a=0.973 b=0.000 c=0.005 d=0.953 tx=-51.0 ty=2.7
+    0001 src=(927,1,93x132) rot=False a=0.940 b=0.000 c=0.010 d=0.924 tx=112.9 ty=189.2
+    0002 src=(92,533,46x63) rot=True a=0.938 b=0.030 c=-0.019 d=0.922 tx=107.1 ty=308.1
+    0003 src=(616,288,60x115) rot=False a=0.973 b=-0.034 c=0.046 d=0.957 tx=97.1 ty=187.8
+    0002 src=(92,533,46x63) rot=True a=-0.930 b=0.118 c=0.129 d=0.914 tx=297.4 ty=296.7
+    0004 src=(544,288,71x121) rot=False a=0.974 b=0.025 c=-0.015 d=0.957 tx=174.7 ty=164.4
+    0005 src=(140,445,73x114) rot=True a=0.792 b=0.000 c=0.008 d=0.735 tx=111.8 ty=223.5
+    0006 src=(1,445,138x87) rot=False a=0.946 b=-0.005 c=0.015 d=0.930 tx=27.5 ty=285.1
+    0007 src=(921,408,97x183) rot=True a=0.946 b=0.012 c=-0.002 d=0.930 tx=52.9 ty=280.4
+    0008 src=(679,211,208x203) rot=False a=0.968 b=-0.022 c=0.022 d=0.968 tx=-7.4 ty=8.2
+    0013 src=(927,134,93x70) rot=False a=0.968 b=-0.022 c=0.022 d=0.968 tx=91.8 ty=164.1
+  tick[1]: 29 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=0.000 d=0.983 tx=455.1 ty=301.6
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-327.4 ty=25.9
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-199.6 ty=68.4
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-154.6 ty=68.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-176.0 ty=68.4
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-132.6 ty=68.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-109.8 ty=68.6
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=48.7 ty=99.6
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=147.1 ty=144.5
+    0018 src=(784,415,136x200) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=47.5 ty=27.0
+    0016 src=(426,486,89x81) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=97.6 ty=79.0
+    0016 src=(426,486,89x81) rot=False a=0.936 b=0.000 c=0.000 d=0.936 tx=96.8 ty=158.7
+    0024 src=(1,1,340x287) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-460.0 ty=-134.7
+    0019 src=(309,550,76x57) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-309.4 ty=-14.5
+    0019 src=(309,550,76x57) rot=False a=-0.944 b=0.000 c=0.000 d=0.944 tx=28.2 ty=-15.9
+    0020 src=(386,550,39x49) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-88.6 ty=208.2
+    0020 src=(386,550,39x49) rot=True a=-0.938 b=0.000 c=0.000 d=0.938 tx=-190.1 ty=213.4
+    0022 src=(1,289,244x155) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-366.1 ty=10.3
+    0000 src=(679,1,247x209) rot=False a=0.973 b=0.000 c=0.005 d=0.953 tx=-51.0 ty=2.7
+    0001 src=(927,1,93x132) rot=False a=0.940 b=0.000 c=0.010 d=0.924 tx=112.9 ty=189.2
+    0002 src=(92,533,46x63) rot=True a=0.938 b=0.030 c=-0.019 d=0.922 tx=107.1 ty=308.1
+    0003 src=(616,288,60x115) rot=False a=0.973 b=-0.034 c=0.046 d=0.957 tx=97.1 ty=187.8
+    0002 src=(92,533,46x63) rot=True a=-0.930 b=0.118 c=0.129 d=0.914 tx=297.4 ty=296.7
+    0004 src=(544,288,71x121) rot=False a=0.974 b=0.025 c=-0.015 d=0.957 tx=174.7 ty=164.4
+    0005 src=(140,445,73x114) rot=True a=0.792 b=0.000 c=0.008 d=0.735 tx=111.8 ty=223.5
+    0006 src=(1,445,138x87) rot=False a=0.946 b=-0.005 c=0.015 d=0.930 tx=27.5 ty=285.1
+    0007 src=(921,408,97x183) rot=True a=0.946 b=0.012 c=-0.002 d=0.930 tx=52.9 ty=280.4
+    0008 src=(679,211,208x203) rot=False a=0.968 b=-0.022 c=0.022 d=0.968 tx=-7.4 ty=8.2
+    0013 src=(927,134,93x70) rot=False a=0.968 b=-0.022 c=0.022 d=0.968 tx=91.8 ty=164.1
+  tick[2]: 28 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=0.000 d=0.983 tx=455.1 ty=301.6
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-327.4 ty=25.9
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-199.6 ty=68.4
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-154.6 ty=68.4
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-132.6 ty=68.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-109.8 ty=68.6
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=48.7 ty=99.6
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=147.1 ty=144.5
+    0018 src=(784,415,136x200) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=47.5 ty=27.0
+    0016 src=(426,486,89x81) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=97.6 ty=79.0
+    0016 src=(426,486,89x81) rot=False a=0.936 b=0.000 c=0.000 d=0.936 tx=96.8 ty=158.7
+    0024 src=(1,1,340x287) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-460.0 ty=-134.7
+    0019 src=(309,550,76x57) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-309.4 ty=-14.5
+    0019 src=(309,550,76x57) rot=False a=-0.944 b=0.000 c=0.000 d=0.944 tx=28.2 ty=-15.9
+    0020 src=(386,550,39x49) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-88.6 ty=208.2
+    0020 src=(386,550,39x49) rot=True a=-0.938 b=0.000 c=0.000 d=0.938 tx=-190.1 ty=213.4
+    0022 src=(1,289,244x155) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-366.1 ty=10.3
+    0000 src=(679,1,247x209) rot=False a=0.960 b=0.000 c=0.000 d=0.960 tx=-44.2 ty=15.2
+    0001 src=(927,1,93x132) rot=False a=0.934 b=0.000 c=0.000 d=0.934 tx=115.5 ty=186.5
+    0002 src=(92,533,46x63) rot=True a=0.933 b=0.000 c=0.000 d=0.933 tx=107.0 ty=307.7
+    0003 src=(616,288,60x115) rot=False a=0.969 b=0.000 c=0.000 d=0.969 tx=119.6 ty=211.1
+    0002 src=(92,533,46x63) rot=True a=-0.930 b=0.066 c=0.066 d=0.930 tx=300.3 ty=297.4
+    0004 src=(544,288,71x121) rot=False a=0.969 b=0.000 c=0.000 d=0.969 tx=161.1 ty=200.5
+    0005 src=(140,445,73x114) rot=True a=0.770 b=0.000 c=0.000 d=0.770 tx=117.6 ty=234.1
+    0006 src=(1,445,138x87) rot=False a=0.941 b=0.000 c=0.000 d=0.941 tx=84.2 ty=300.5
+    0007 src=(921,408,97x183) rot=True a=0.941 b=0.000 c=0.000 d=0.941 tx=20.9 ty=291.5
+    0008 src=(679,211,208x203) rot=False a=0.969 b=0.000 c=0.000 d=0.969 tx=-0.9 ty=2.0
+    0013 src=(927,134,93x70) rot=False a=0.969 b=0.000 c=0.000 d=0.969 tx=95.3 ty=158.6
+[DIAG-PRC] bbox=(-460.0,-134.7)-(468.9,382.8) cell=929x518 ticks=15
+[DIAG-PRC] unique=10 totalTicks=15
+[DIAG-PRC] atlas=3716x1554 cols=4 maxCells=12 unique=10 overflow=False
+[DIAG] Result 'IdleLeft': 15 frames, cell=929x518, origin=(460.0,134.7), tex=3716x1554
+[DIAG] RenderRawComposites 'IdleRight': 15 ticks, atlas=1023x616
+  tick[0]: 29 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=0.000 d=0.983 tx=455.1 ty=301.6
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-327.4 ty=27.5
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-199.6 ty=70.0
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-154.6 ty=70.0
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-176.0 ty=70.0
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-109.8 ty=70.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-132.6 ty=70.0
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=48.7 ty=101.1
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=147.1 ty=146.1
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=49.3 ty=29.8
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=94.6 ty=101.4
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=92.5 ty=182.7
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-458.2 ty=-134.7
+    0019 src=(309,550,76x57) rot=False a=0.895 b=0.000 c=0.000 d=0.895 tx=-288.0 ty=0.4
+    0019 src=(309,550,76x57) rot=False a=-0.895 b=0.000 c=0.000 d=0.895 tx=5.5 ty=0.4
+    0020 src=(386,550,39x49) rot=True a=0.869 b=0.000 c=0.000 d=0.869 tx=-97.4 ty=207.0
+    0020 src=(386,550,39x49) rot=True a=-0.869 b=0.000 c=0.000 d=0.869 tx=-177.0 ty=207.0
+    0021 src=(544,415,239x147) rot=False a=0.918 b=0.000 c=0.000 d=0.918 tx=-358.5 ty=17.2
+    0000 src=(679,1,247x209) rot=False a=0.970 b=0.000 c=-0.060 d=0.955 tx=-29.5 ty=-2.8
+    0001 src=(927,1,93x132) rot=False a=0.934 b=0.000 c=0.007 d=0.934 tx=114.5 ty=186.5
+    0002 src=(92,533,46x63) rot=True a=0.927 b=0.102 c=-0.112 d=0.926 tx=113.5 ty=303.1
+    0003 src=(616,288,60x115) rot=False a=0.967 b=-0.038 c=0.046 d=0.968 tx=102.9 ty=182.3
+    0002 src=(92,533,46x63) rot=True a=-0.920 b=0.152 c=0.141 d=0.921 tx=296.9 ty=294.6
+    0004 src=(544,288,71x121) rot=False a=0.969 b=0.034 c=-0.027 d=0.967 tx=177.7 ty=167.6
+    0005 src=(140,445,73x114) rot=True a=0.805 b=0.000 c=0.006 d=0.743 tx=112.1 ty=223.6
+    0006 src=(1,445,138x87) rot=False a=0.941 b=-0.009 c=-0.002 d=0.941 tx=52.2 ty=293.8
+    0007 src=(921,408,97x183) rot=True a=0.941 b=0.009 c=-0.020 d=0.941 tx=49.4 ty=284.9
+    0008 src=(679,211,208x203) rot=False a=0.947 b=0.198 c=-0.198 d=0.947 tx=56.5 ty=-32.0
+    0014 src=(214,513,94x67) rot=False a=0.947 b=0.198 c=-0.198 d=0.947 tx=118.3 ty=142.7
+  tick[1]: 29 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=0.000 d=0.983 tx=455.1 ty=301.6
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-327.4 ty=25.9
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-199.6 ty=68.4
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-154.6 ty=68.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-176.0 ty=68.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-109.8 ty=68.6
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-132.6 ty=68.4
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=48.7 ty=100.4
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=147.1 ty=145.2
+    0018 src=(784,415,136x200) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=47.5 ty=27.0
+    0016 src=(426,486,89x81) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=97.6 ty=79.0
+    0016 src=(426,486,89x81) rot=False a=0.936 b=0.000 c=0.000 d=0.936 tx=96.8 ty=158.7
+    0024 src=(1,1,340x287) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-460.0 ty=-134.7
+    0019 src=(309,550,76x57) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-309.4 ty=-14.5
+    0019 src=(309,550,76x57) rot=False a=-0.944 b=0.000 c=0.000 d=0.944 tx=28.2 ty=-15.9
+    0020 src=(386,550,39x49) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-88.6 ty=208.2
+    0020 src=(386,550,39x49) rot=True a=-0.938 b=0.000 c=0.000 d=0.938 tx=-190.1 ty=213.4
+    0022 src=(1,289,244x155) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-366.1 ty=10.3
+    0000 src=(679,1,247x209) rot=False a=0.970 b=0.000 c=-0.060 d=0.955 tx=-29.5 ty=-2.8
+    0001 src=(927,1,93x132) rot=False a=0.934 b=0.000 c=0.007 d=0.934 tx=114.5 ty=186.5
+    0002 src=(92,533,46x63) rot=True a=0.927 b=0.102 c=-0.112 d=0.926 tx=113.5 ty=303.1
+    0003 src=(616,288,60x115) rot=False a=0.967 b=-0.038 c=0.046 d=0.968 tx=102.9 ty=182.3
+    0002 src=(92,533,46x63) rot=True a=-0.920 b=0.152 c=0.141 d=0.921 tx=296.9 ty=294.6
+    0004 src=(544,288,71x121) rot=False a=0.969 b=0.034 c=-0.027 d=0.967 tx=177.7 ty=167.6
+    0005 src=(140,445,73x114) rot=True a=0.805 b=0.000 c=0.006 d=0.743 tx=112.1 ty=223.6
+    0006 src=(1,445,138x87) rot=False a=0.941 b=-0.009 c=-0.002 d=0.941 tx=52.2 ty=293.8
+    0007 src=(921,408,97x183) rot=True a=0.941 b=0.009 c=-0.020 d=0.941 tx=49.4 ty=284.9
+    0008 src=(679,211,208x203) rot=False a=0.947 b=0.198 c=-0.198 d=0.947 tx=56.5 ty=-32.0
+    0014 src=(214,513,94x67) rot=False a=0.947 b=0.198 c=-0.198 d=0.947 tx=118.3 ty=142.7
+  tick[2]: 29 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=0.000 d=0.983 tx=455.1 ty=301.6
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-327.4 ty=25.9
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-199.6 ty=68.4
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-154.6 ty=68.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-176.0 ty=68.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-109.8 ty=68.6
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-132.6 ty=68.4
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=48.7 ty=100.4
+    0029 src=(947,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=147.1 ty=145.2
+    0018 src=(784,415,136x200) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=47.5 ty=27.0
+    0016 src=(426,486,89x81) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=97.6 ty=79.0
+    0016 src=(426,486,89x81) rot=False a=0.936 b=0.000 c=0.000 d=0.936 tx=96.8 ty=158.7
+    0024 src=(1,1,340x287) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-460.0 ty=-134.7
+    0019 src=(309,550,76x57) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-309.4 ty=-14.5
+    0019 src=(309,550,76x57) rot=False a=-0.944 b=0.000 c=0.000 d=0.944 tx=28.2 ty=-15.9
+    0020 src=(386,550,39x49) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=-88.6 ty=208.2
+    0020 src=(386,550,39x49) rot=True a=-0.938 b=0.000 c=0.000 d=0.938 tx=-190.1 ty=213.4
+    0022 src=(1,289,244x155) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-366.1 ty=10.3
+    0000 src=(679,1,247x209) rot=False a=0.960 b=0.000 c=-0.048 d=0.960 tx=-31.8 ty=-4.8
+    0001 src=(927,1,93x132) rot=False a=0.934 b=0.000 c=0.007 d=0.934 tx=114.5 ty=186.5
+    0002 src=(92,533,46x63) rot=True a=0.933 b=0.000 c=-0.010 d=0.933 tx=108.3 ty=307.7
+    0003 src=(616,288,60x115) rot=False a=0.969 b=0.000 c=0.008 d=0.969 tx=118.7 ty=211.1
+    0002 src=(92,533,46x63) rot=True a=-0.931 b=0.066 c=0.055 d=0.930 tx=301.7 ty=297.4
+    0004 src=(544,288,71x121) rot=False a=0.969 b=0.000 c=0.008 d=0.969 tx=160.2 ty=200.5
+    0005 src=(140,445,73x114) rot=True a=0.770 b=0.000 c=0.006 d=0.770 tx=116.9 ty=233.6
+    0006 src=(1,445,138x87) rot=False a=0.941 b=0.000 c=-0.010 d=0.941 tx=85.6 ty=300.5
+    0007 src=(921,408,97x183) rot=True a=0.941 b=0.000 c=-0.010 d=0.941 tx=22.4 ty=291.5
+    0008 src=(679,211,208x203) rot=False a=0.951 b=0.181 c=-0.181 d=0.951 tx=49.6 ty=-30.2
+    0014 src=(214,513,94x67) rot=False a=0.951 b=0.181 c=-0.181 d=0.951 tx=113.6 ty=142.3
+[DIAG-PRC] bbox=(-460.0,-134.7)-(468.9,382.8) cell=929x518 ticks=15
+[DIAG-PRC] unique=10 totalTicks=15
+[DIAG-PRC] atlas=3716x1554 cols=4 maxCells=12 unique=10 overflow=False
+[DIAG] Result 'IdleRight': 15 frames, cell=929x518, origin=(460.0,134.7), tex=3716x1554
+[DIAG] RenderRawComposites 'Confirm': 24 ticks, atlas=1023x616
+  tick[0]: 29 parts
+    0012 src=(1021,61,1x13) rot=True a=1.000 b=0.000 c=0.000 d=1.000 tx=791.0 ty=221.0
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=8.5 ty=-55.1
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=136.3 ty=-12.6
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=181.3 ty=-12.6
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=160.0 ty=-12.6
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=203.3 ty=-12.6
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=226.2 ty=-12.4
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=384.7 ty=18.6
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=483.0 ty=63.5
+    0018 src=(784,415,136x200) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=383.4 ty=-54.0
+    0016 src=(426,486,89x81) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=433.5 ty=-2.0
+    0016 src=(426,486,89x81) rot=False a=0.936 b=0.000 c=0.000 d=0.936 tx=432.7 ty=77.7
+    0024 src=(1,1,340x287) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-124.1 ty=-215.7
+    0019 src=(309,550,76x57) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=26.5 ty=-95.5
+    0019 src=(309,550,76x57) rot=False a=-0.944 b=0.000 c=0.000 d=0.944 tx=364.1 ty=-96.9
+    0020 src=(386,550,39x49) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=247.4 ty=127.2
+    0020 src=(386,550,39x49) rot=True a=-0.938 b=0.000 c=0.000 d=0.938 tx=145.8 ty=132.4
+    0022 src=(1,289,244x155) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-30.1 ty=-70.7
+    0000 src=(679,1,247x209) rot=False a=0.958 b=-0.099 c=0.023 d=0.927 tx=415.5 ty=229.3
+    0001 src=(927,1,93x132) rot=False a=0.930 b=-0.082 c=0.132 d=0.926 tx=544.8 ty=285.6
+    0002 src=(92,533,46x63) rot=True a=0.933 b=-0.017 c=0.017 d=0.933 tx=558.5 ty=400.5
+    0003 src=(616,288,60x115) rot=False a=0.965 b=-0.085 c=0.137 d=0.960 tx=552.3 ty=309.5
+    0002 src=(92,533,46x63) rot=True a=-0.929 b=0.079 c=0.079 d=0.929 tx=752.1 ty=383.4
+    0004 src=(544,288,71x121) rot=False a=0.965 b=-0.085 c=0.137 d=0.960 tx=592.3 ty=295.5
+    0005 src=(140,445,73x114) rot=True a=0.766 b=-0.068 c=0.109 d=0.763 tx=553.7 ty=332.5
+    0006 src=(1,445,138x87) rot=False a=0.941 b=-0.017 c=0.017 d=0.941 tx=535.6 ty=393.7
+    0007 src=(921,408,97x183) rot=True a=0.941 b=-0.026 c=0.026 d=0.941 tx=519.8 ty=368.6
+    0008 src=(679,211,208x203) rot=False a=0.968 b=0.026 c=-0.026 d=0.968 tx=350.6 ty=-6.4
+    0013 src=(927,134,93x70) rot=False a=0.968 b=0.026 c=-0.026 d=0.968 tx=442.6 ty=152.7
+  tick[1]: 28 parts
+    0012 src=(1021,61,1x13) rot=True a=1.000 b=0.000 c=0.000 d=1.000 tx=791.0 ty=221.0
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=8.5 ty=-55.1
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=136.3 ty=-12.6
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=181.3 ty=-12.6
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=203.3 ty=-12.6
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=226.2 ty=-12.4
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=384.7 ty=18.6
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=483.0 ty=63.5
+    0018 src=(784,415,136x200) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=383.4 ty=-54.0
+    0016 src=(426,486,89x81) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=433.5 ty=-2.0
+    0016 src=(426,486,89x81) rot=False a=0.936 b=0.000 c=0.000 d=0.936 tx=432.7 ty=77.7
+    0024 src=(1,1,340x287) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-124.1 ty=-215.7
+    0019 src=(309,550,76x57) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=26.5 ty=-95.5
+    0019 src=(309,550,76x57) rot=False a=-0.944 b=0.000 c=0.000 d=0.944 tx=364.1 ty=-96.9
+    0020 src=(386,550,39x49) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=247.4 ty=127.2
+    0020 src=(386,550,39x49) rot=True a=-0.938 b=0.000 c=0.000 d=0.938 tx=145.8 ty=132.4
+    0022 src=(1,289,244x155) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-30.1 ty=-70.7
+    0000 src=(679,1,247x209) rot=False a=0.958 b=-0.099 c=0.023 d=0.927 tx=415.5 ty=229.3
+    0001 src=(927,1,93x132) rot=False a=0.930 b=-0.082 c=0.132 d=0.926 tx=544.8 ty=285.6
+    0002 src=(92,533,46x63) rot=True a=0.933 b=-0.017 c=0.017 d=0.933 tx=558.5 ty=400.5
+    0003 src=(616,288,60x115) rot=False a=0.965 b=-0.085 c=0.137 d=0.960 tx=552.3 ty=309.5
+    0002 src=(92,533,46x63) rot=True a=-0.929 b=0.079 c=0.079 d=0.929 tx=752.1 ty=383.4
+    0004 src=(544,288,71x121) rot=False a=0.965 b=-0.085 c=0.137 d=0.960 tx=592.3 ty=295.5
+    0005 src=(140,445,73x114) rot=True a=0.766 b=-0.068 c=0.109 d=0.763 tx=553.7 ty=332.5
+    0006 src=(1,445,138x87) rot=False a=0.941 b=-0.017 c=0.017 d=0.941 tx=535.6 ty=393.7
+    0007 src=(921,408,97x183) rot=True a=0.941 b=-0.026 c=0.026 d=0.941 tx=519.8 ty=368.6
+    0008 src=(679,211,208x203) rot=False a=0.968 b=0.026 c=-0.026 d=0.968 tx=350.6 ty=-6.4
+    0013 src=(927,134,93x70) rot=False a=0.968 b=0.026 c=-0.026 d=0.968 tx=442.6 ty=152.7
+  tick[2]: 29 parts
+    0012 src=(1021,61,1x13) rot=True a=1.000 b=0.000 c=0.000 d=1.000 tx=791.0 ty=221.0
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=8.5 ty=-53.5
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=136.3 ty=-11.0
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=181.3 ty=-11.0
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=160.0 ty=-11.0
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=203.3 ty=-11.0
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=226.2 ty=-10.8
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=384.7 ty=20.1
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=483.0 ty=65.1
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=385.2 ty=-51.2
+    0016 src=(426,486,89x81) rot=False a=0.916 b=0.000 c=0.000 d=0.916 tx=434.9 ty=0.5
+    0016 src=(426,486,89x81) rot=False a=0.920 b=0.000 c=0.000 d=0.920 tx=432.1 ty=80.7
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=-122.2 ty=-215.7
+    0019 src=(309,550,76x57) rot=False a=0.913 b=0.000 c=0.000 d=0.913 tx=28.0 ty=-94.7
+    0019 src=(309,550,76x57) rot=False a=-0.913 b=0.000 c=0.000 d=0.913 tx=361.7 ty=-94.6
+    0020 src=(386,550,39x49) rot=True a=0.897 b=0.000 c=0.000 d=0.897 tx=249.7 ty=132.9
+    0020 src=(386,550,39x49) rot=True a=-0.906 b=0.000 c=0.000 d=0.906 tx=147.3 ty=131.5
+    0021 src=(544,415,239x147) rot=False a=0.933 b=0.000 c=0.000 d=0.933 tx=-26.1 ty=-66.0
+    0000 src=(679,1,247x209) rot=False a=0.958 b=-0.090 c=0.030 d=0.941 tx=409.9 ty=229.1
+    0001 src=(927,1,93x132) rot=False a=0.933 b=-0.016 c=0.066 d=0.932 tx=556.2 ty=275.4
+    0002 src=(92,533,46x63) rot=True a=0.933 b=-0.017 c=0.017 d=0.933 tx=558.5 ty=400.5
+    0003 src=(616,288,60x115) rot=False a=0.968 b=0.014 c=0.038 d=0.968 tx=553.8 ty=269.8
+    0002 src=(92,533,46x63) rot=True a=-0.929 b=0.079 c=0.079 d=0.929 tx=752.1 ty=383.4
+    0004 src=(544,288,71x121) rot=False a=0.961 b=-0.115 c=0.166 d=0.955 tx=596.8 ty=262.4
+    0005 src=(140,445,73x114) rot=True a=0.694 b=-0.012 c=0.059 d=0.838 tx=570.0 ty=317.0
+    0006 src=(1,445,138x87) rot=False a=0.941 b=-0.017 c=0.017 d=0.941 tx=535.6 ty=393.7
+    0007 src=(921,408,97x183) rot=True a=0.941 b=-0.026 c=0.026 d=0.941 tx=519.8 ty=368.6
+    0008 src=(679,211,208x203) rot=False a=0.966 b=-0.064 c=0.064 d=0.966 tx=337.7 ty=-26.5
+    0013 src=(927,134,93x70) rot=False a=0.966 b=-0.064 c=0.064 d=0.966 tx=444.0 ty=123.4
+[DIAG-PRC] bbox=(-124.1,-215.7)-(804.0,479.5) cell=929x696 ticks=24
+[DIAG-PRC] unique=21 totalTicks=24
+[DIAG-PRC] atlas=3716x3480 cols=4 maxCells=20 unique=21 overflow=True
+[DIAG] Result 'Confirm': 24 frames, cell=929x696, origin=(124.1,215.7), tex=3716x3480
+[DIAG] RenderRawComposites 'Cancel': 52 ticks, atlas=1023x616
+  tick[0]: 25 parts
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=605.6 ty=182.2
+    0029 src=(947,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=704.0 ty=227.1
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=334.9 ty=137.6
+    0012 src=(1021,61,1x13) rot=True a=1.000 b=0.000 c=0.000 d=1.000 tx=791.0 ty=222.6
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=668.1 ty=203.7
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=713.5 ty=275.2
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=711.4 ty=356.5
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=257.8 ty=81.5
+    0019 src=(309,550,76x57) rot=False a=0.895 b=0.000 c=0.000 d=0.895 tx=428.0 ty=216.6
+    0019 src=(309,550,76x57) rot=False a=-0.895 b=0.000 c=0.000 d=0.895 tx=721.4 ty=216.6
+    0020 src=(386,550,39x49) rot=True a=0.869 b=0.000 c=0.000 d=0.869 tx=618.6 ty=423.1
+    0020 src=(386,550,39x49) rot=True a=-0.869 b=0.000 c=0.000 d=0.869 tx=539.0 ty=423.1
+    0021 src=(544,415,239x147) rot=False a=0.918 b=0.000 c=0.000 d=0.918 tx=357.5 ty=233.5
+    0000 src=(679,1,247x209) rot=False a=0.961 b=-0.007 c=-0.042 d=0.926 tx=397.7 ty=292.1
+    0001 src=(927,1,93x132) rot=False a=0.929 b=-0.099 c=0.148 d=0.923 tx=542.1 ty=289.3
+    0002 src=(92,533,46x63) rot=True a=0.932 b=0.044 c=-0.044 d=0.932 tx=579.2 ty=397.9
+    0003 src=(616,288,60x115) rot=False a=0.963 b=-0.102 c=0.154 d=0.957 tx=549.1 ty=311.3
+    0002 src=(92,533,46x63) rot=True a=-0.932 b=0.005 c=0.005 d=0.932 tx=740.2 ty=384.0
+    0004 src=(544,288,71x121) rot=False a=0.957 b=-0.149 c=0.200 d=0.949 tx=584.5 ty=297.6
+    0005 src=(140,445,73x114) rot=True a=0.765 b=-0.081 c=0.122 d=0.761 tx=551.8 ty=336.1
+    0006 src=(1,445,138x87) rot=False a=0.940 b=-0.030 c=0.030 d=0.940 tx=534.1 ty=397.8
+    0007 src=(921,408,97x183) rot=True a=0.940 b=-0.038 c=0.038 d=0.940 tx=518.1 ty=371.2
+    0033 src=(342,288,201x197) rot=False a=0.991 b=-0.128 c=0.128 d=0.991 tx=400.9 ty=132.1
+    0032 src=(1,533,90x65) rot=False a=0.996 b=-0.080 c=0.080 d=0.996 tx=520.0 ty=273.1
+    0031 src=(309,289,13x38) rot=False a=0.999 b=-0.019 c=0.019 d=0.999 tx=632.4 ty=230.9
+  tick[1]: 30 parts
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=605.6 ty=182.2
+    0029 src=(947,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=704.0 ty=227.1
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=334.9 ty=137.6
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=507.7 ty=180.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=529.7 ty=180.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=486.2 ty=180.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=462.8 ty=180.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=552.6 ty=180.2
+    0012 src=(1021,61,1x13) rot=True a=1.000 b=0.000 c=0.000 d=1.000 tx=791.0 ty=222.6
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=668.1 ty=203.7
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=713.5 ty=275.2
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=711.4 ty=356.5
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=257.8 ty=81.5
+    0019 src=(309,550,76x57) rot=False a=0.895 b=0.000 c=0.000 d=0.895 tx=428.0 ty=216.6
+    0019 src=(309,550,76x57) rot=False a=-0.895 b=0.000 c=0.000 d=0.895 tx=721.4 ty=216.6
+    0020 src=(386,550,39x49) rot=True a=0.869 b=0.000 c=0.000 d=0.869 tx=618.6 ty=423.1
+    0020 src=(386,550,39x49) rot=True a=-0.869 b=0.000 c=0.000 d=0.869 tx=539.0 ty=423.1
+    0021 src=(544,415,239x147) rot=False a=0.918 b=0.000 c=0.000 d=0.918 tx=357.5 ty=233.5
+    0000 src=(679,1,247x209) rot=False a=0.961 b=-0.007 c=-0.042 d=0.926 tx=397.7 ty=292.1
+    0001 src=(927,1,93x132) rot=False a=0.929 b=-0.099 c=0.148 d=0.923 tx=542.1 ty=289.3
+    0002 src=(92,533,46x63) rot=True a=0.932 b=0.044 c=-0.044 d=0.932 tx=579.2 ty=397.9
+    0003 src=(616,288,60x115) rot=False a=0.963 b=-0.102 c=0.154 d=0.957 tx=549.1 ty=311.3
+    0002 src=(92,533,46x63) rot=True a=-0.932 b=0.005 c=0.005 d=0.932 tx=740.2 ty=384.0
+    0004 src=(544,288,71x121) rot=False a=0.957 b=-0.149 c=0.200 d=0.949 tx=584.5 ty=297.6
+    0005 src=(140,445,73x114) rot=True a=0.765 b=-0.081 c=0.122 d=0.761 tx=551.8 ty=336.1
+    0006 src=(1,445,138x87) rot=False a=0.940 b=-0.030 c=0.030 d=0.940 tx=534.1 ty=397.8
+    0007 src=(921,408,97x183) rot=True a=0.940 b=-0.038 c=0.038 d=0.940 tx=518.1 ty=371.2
+    0033 src=(342,288,201x197) rot=False a=0.991 b=-0.128 c=0.128 d=0.991 tx=400.9 ty=132.1
+    0032 src=(1,533,90x65) rot=False a=0.996 b=-0.080 c=0.080 d=0.996 tx=520.0 ty=273.1
+    0031 src=(309,289,13x38) rot=False a=0.999 b=-0.019 c=0.019 d=0.999 tx=632.4 ty=230.9
+  tick[2]: 30 parts
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=605.6 ty=182.2
+    0029 src=(947,205,19x5) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=704.0 ty=227.1
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.000 d=0.946 tx=334.9 ty=137.6
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=507.7 ty=180.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=529.7 ty=180.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=486.2 ty=180.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=462.8 ty=180.2
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=552.6 ty=180.2
+    0012 src=(1021,61,1x13) rot=True a=1.000 b=0.000 c=0.000 d=1.000 tx=791.0 ty=222.6
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=668.1 ty=203.7
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=713.5 ty=275.2
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.000 d=0.902 tx=711.4 ty=356.5
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=0.000 d=0.946 tx=257.8 ty=81.5
+    0019 src=(309,550,76x57) rot=False a=0.895 b=0.000 c=0.000 d=0.895 tx=428.0 ty=216.6
+    0019 src=(309,550,76x57) rot=False a=-0.895 b=0.000 c=0.000 d=0.895 tx=721.4 ty=216.6
+    0020 src=(386,550,39x49) rot=True a=0.869 b=0.000 c=0.000 d=0.869 tx=618.6 ty=423.1
+    0020 src=(386,550,39x49) rot=True a=-0.869 b=0.000 c=0.000 d=0.869 tx=539.0 ty=423.1
+    0021 src=(544,415,239x147) rot=False a=0.918 b=0.000 c=0.000 d=0.918 tx=357.5 ty=233.5
+    0000 src=(679,1,247x209) rot=False a=0.961 b=0.010 c=-0.058 d=0.925 tx=402.6 ty=283.6
+    0001 src=(927,1,93x132) rot=False a=0.930 b=-0.082 c=0.132 d=0.926 tx=544.8 ty=287.2
+    0002 src=(92,533,46x63) rot=True a=0.933 b=-0.017 c=0.017 d=0.933 tx=558.5 ty=402.1
+    0003 src=(616,288,60x115) rot=False a=0.965 b=-0.085 c=0.137 d=0.960 tx=551.5 ty=308.7
+    0002 src=(92,533,46x63) rot=True a=-0.929 b=0.079 c=0.079 d=0.929 tx=752.1 ty=385.0
+    0004 src=(544,288,71x121) rot=False a=0.959 b=-0.132 c=0.183 d=0.952 tx=587.1 ty=297.4
+    0005 src=(140,445,73x114) rot=True a=0.766 b=-0.068 c=0.109 d=0.763 tx=553.7 ty=334.1
+    0006 src=(1,445,138x87) rot=False a=0.941 b=-0.017 c=0.017 d=0.941 tx=535.6 ty=395.3
+    0007 src=(921,408,97x183) rot=True a=0.941 b=-0.026 c=0.026 d=0.941 tx=519.8 ty=370.2
+    0033 src=(342,288,201x197) rot=False a=0.996 b=-0.089 c=0.089 d=0.996 tx=412.7 ty=118.5
+    0032 src=(1,533,90x65) rot=False a=0.999 b=-0.041 c=0.041 d=0.999 tx=526.1 ty=264.1
+    0031 src=(309,289,13x38) rot=False a=1.000 b=0.012 c=-0.012 d=1.000 tx=639.8 ty=226.4
+[DIAG-PRC] bbox=(257.8,81.5)-(804.0,485.6) cell=547x405 ticks=52
+[DIAG-PRC] unique=16 totalTicks=52
+[DIAG-PRC] atlas=2188x1620 cols=4 maxCells=16 unique=16 overflow=False
+[DIAG] Result 'Cancel': 52 frames, cell=547x405, origin=(-257.8,-81.5), tex=2188x1620
+[DIAG] RenderRawComposites 'Exit': 2 ticks, atlas=1023x616
+  tick[0]: 28 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=0.011 d=0.983 tx=762.3 ty=81.8
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=0.011 d=0.946 tx=-23.4 ty=-192.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.011 d=0.946 tx=104.9 ty=-149.9
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=0.011 d=0.946 tx=149.9 ty=-149.9
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.011 d=0.946 tx=128.5 ty=-149.9
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=0.011 d=0.946 tx=194.7 ty=-149.6
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=0.011 d=0.946 tx=353.6 ty=-118.7
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=0.011 d=0.946 tx=452.5 ty=-73.8
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=0.011 d=0.946 tx=353.4 ty=-190.0
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.010 d=0.902 tx=399.5 ty=-118.5
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=0.010 d=0.902 tx=398.4 ty=-37.2
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=0.011 d=0.946 tx=-156.1 ty=-354.5
+    0019 src=(309,550,76x57) rot=False a=0.895 b=0.000 c=0.010 d=0.895 tx=15.7 ty=-219.5
+    0019 src=(309,550,76x57) rot=False a=-0.895 b=0.000 c=0.010 d=0.895 tx=309.2 ty=-219.5
+    0020 src=(386,550,39x49) rot=True a=0.869 b=0.000 c=0.010 d=0.869 tx=208.7 ty=-12.9
+    0020 src=(386,550,39x49) rot=True a=-0.869 b=0.000 c=0.010 d=0.869 tx=129.2 ty=-12.9
+    0021 src=(544,415,239x147) rot=False a=0.918 b=0.000 c=0.011 d=0.918 tx=-54.5 ty=-202.6
+    0000 src=(679,1,247x209) rot=False a=0.960 b=0.000 c=0.011 d=0.960 tx=259.7 ty=-204.7
+    0001 src=(927,1,93x132) rot=False a=0.934 b=0.000 c=0.011 d=0.934 tx=421.4 ty=-33.4
+    0002 src=(92,533,46x63) rot=True a=0.933 b=0.000 c=0.011 d=0.933 tx=414.3 ty=87.8
+    0003 src=(616,288,60x115) rot=False a=0.969 b=0.000 c=0.011 d=0.969 tx=425.8 ty=-8.8
+    0002 src=(92,533,46x63) rot=True a=-0.930 b=0.066 c=0.076 d=0.930 tx=607.4 ty=77.5
+    0004 src=(544,288,71x121) rot=False a=0.969 b=0.000 c=0.011 d=0.969 tx=467.2 ty=-19.4
+    0005 src=(140,445,73x114) rot=True a=0.770 b=0.000 c=0.009 d=0.770 tx=424.1 ty=14.7
+    0006 src=(1,445,138x87) rot=False a=0.941 b=0.000 c=0.011 d=0.941 tx=391.4 ty=80.6
+    0007 src=(921,408,97x183) rot=True a=0.941 b=0.000 c=0.011 d=0.941 tx=328.0 ty=71.6
+    0008 src=(679,211,208x203) rot=False a=0.969 b=0.000 c=0.011 d=0.969 tx=302.8 ty=-217.9
+    0013 src=(927,134,93x70) rot=False a=0.969 b=0.000 c=0.011 d=0.969 tx=400.9 ty=-61.2
+  tick[1]: 28 parts
+    0015 src=(1021,46,1x14) rot=True a=0.983 b=0.000 c=-0.184 d=0.983 tx=918.2 ty=81.8
+    0027 src=(246,289,62x223) rot=True a=0.946 b=0.000 c=-0.177 d=0.946 tx=187.0 ty=-192.4
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=-0.177 d=0.946 tx=306.8 ty=-149.9
+    0026 src=(992,205,5x5) rot=False a=0.946 b=0.000 c=-0.177 d=0.946 tx=351.8 ty=-149.9
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=-0.177 d=0.946 tx=330.4 ty=-149.9
+    0025 src=(986,205,5x5) rot=False a=0.946 b=0.000 c=-0.177 d=0.946 tx=396.6 ty=-149.6
+    0030 src=(309,486,116x63) rot=False a=0.946 b=0.000 c=-0.177 d=0.946 tx=549.3 ty=-118.7
+    0028 src=(927,205,19x5) rot=True a=0.946 b=0.000 c=-0.177 d=0.946 tx=639.3 ty=-73.8
+    0017 src=(888,211,131x196) rot=False a=0.946 b=0.000 c=-0.177 d=0.946 tx=563.2 ty=-190.0
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=-0.169 d=0.902 tx=595.2 ty=-118.5
+    0016 src=(426,486,89x81) rot=False a=0.902 b=0.000 c=-0.169 d=0.902 tx=577.9 ty=-37.2
+    0023 src=(342,1,336x286) rot=False a=0.946 b=0.000 c=-0.177 d=0.946 tx=86.5 ty=-354.5
+    0019 src=(309,550,76x57) rot=False a=0.895 b=0.000 c=-0.167 d=0.895 tx=231.4 ty=-219.5
+    0019 src=(309,550,76x57) rot=False a=-0.895 b=0.000 c=-0.167 d=0.895 tx=524.9 ty=-219.5
+    0020 src=(386,550,39x49) rot=True a=0.869 b=0.000 c=-0.162 d=0.869 tx=383.4 ty=-12.9
+    0020 src=(386,550,39x49) rot=True a=-0.869 b=0.000 c=-0.162 d=0.869 tx=303.9 ty=-12.9
+    0021 src=(544,415,239x147) rot=False a=0.918 b=0.000 c=-0.172 d=0.918 tx=157.8 ty=-202.6
+    0000 src=(679,1,247x209) rot=False a=0.960 b=0.000 c=-0.180 d=0.960 tx=472.5 ty=-204.7
+    0001 src=(927,1,93x132) rot=False a=0.934 b=0.000 c=-0.175 d=0.934 tx=600.2 ty=-33.4
+    0002 src=(92,533,46x63) rot=True a=0.933 b=0.000 c=-0.174 d=0.933 tx=569.1 ty=87.8
+    0003 src=(616,288,60x115) rot=False a=0.969 b=0.000 c=-0.181 d=0.969 tx=599.7 ty=-8.8
+    0002 src=(92,533,46x63) rot=True a=-0.943 b=0.066 c=-0.108 d=0.930 tx=764.2 ty=77.5
+    0004 src=(544,288,71x121) rot=False a=0.969 b=0.000 c=-0.181 d=0.969 tx=643.2 ty=-19.4
+    0005 src=(140,445,73x114) rot=True a=0.770 b=0.000 c=-0.144 d=0.770 tx=593.3 ty=14.7
+    0006 src=(1,445,138x87) rot=False a=0.941 b=0.000 c=-0.176 d=0.941 tx=547.5 ty=80.6
+    0007 src=(921,408,97x183) rot=True a=0.941 b=0.000 c=-0.176 d=0.941 tx=485.9 ty=71.6
+    0008 src=(679,211,208x203) rot=False a=0.969 b=0.000 c=-0.181 d=0.969 tx=518.2 ty=-217.9
+    0013 src=(927,134,93x70) rot=False a=0.969 b=0.000 c=-0.181 d=0.969 tx=585.2 ty=-61.2
+[DIAG-PRC] bbox=(-156.1,-354.5)-(932.0,162.9) cell=1089x518 ticks=2
+[DIAG-PRC] unique=2 totalTicks=2
+[DIAG-PRC] atlas=2178x518 cols=2 maxCells=2 unique=2 overflow=False
+[DIAG] Result 'Exit': 2 frames, cell=1089x518, origin=(156.1,354.5), tex=2178x518
+[DIAG] RenderRawComposites 'Enter': 10 ticks, atlas=2048x597
+  tick[0]: 17 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.141 d=0.977 tx=-269.2 ty=121.1
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.140 d=0.966 tx=115.5 ty=506.3
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=0.140 d=0.966 tx=-653.7 ty=-178.4
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.129 d=0.893 tx=-48.7 ty=120.0
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.129 d=0.893 tx=-79.4 ty=216.2
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.129 d=0.893 tx=-362.3 ty=47.7
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.129 d=0.893 tx=-373.8 ty=151.2
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.140 d=0.966 tx=-431.3 ty=401.0
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=0.136 d=0.941 tx=-103.2 ty=339.3
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.000 c=0.141 d=0.977 tx=-162.8 ty=175.6
+    0015 src=(1873,139,145x135) rot=False a=0.990 b=0.000 c=0.143 d=0.990 tx=-78.7 ty=236.1
+    0003 src=(1208,333,97x94) rot=False a=0.990 b=0.000 c=0.143 d=0.990 tx=20.4 ty=263.8
+    0004 src=(1991,275,56x147) rot=False a=0.990 b=0.000 c=0.143 d=0.990 tx=-13.6 ty=249.2
+    0010 src=(1306,333,112x79) rot=False a=0.990 b=0.000 c=0.143 d=0.990 tx=-14.8 ty=315.5
+    0002 src=(1249,526,53x54) rot=False a=0.959 b=-0.089 c=0.230 d=0.971 tx=-15.9 ty=434.7
+    0001 src=(456,394,101x87) rot=False a=0.975 b=0.000 c=0.141 d=0.975 tx=-9.8 ty=389.0
+    0000 src=(988,424,79x77) rot=False a=0.976 b=0.000 c=0.141 d=0.976 tx=-60.7 ty=373.4
+  tick[1]: 17 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.071 d=0.980 tx=-112.4 ty=120.4
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.070 d=0.968 tx=244.3 ty=506.6
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=0.070 d=0.968 tx=-475.2 ty=-179.9
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.064 d=0.895 tx=108.1 ty=119.3
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.064 d=0.895 tx=70.5 ty=215.7
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.064 d=0.895 tx=-200.2 ty=46.8
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.064 d=0.895 tx=-219.2 ty=150.5
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.070 d=0.968 tx=-294.9 ty=401.1
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=0.068 d=0.944 tx=37.7 ty=339.2
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.000 c=0.071 d=0.980 tx=-10.0 ty=175.1
+    0015 src=(1873,139,145x135) rot=False a=0.990 b=0.000 c=0.071 d=0.992 tx=69.7 ty=235.7
+    0003 src=(1208,333,97x94) rot=False a=0.990 b=0.000 c=0.071 d=0.992 tx=166.8 ty=263.4
+    0004 src=(1991,275,56x147) rot=False a=0.990 b=0.000 c=0.071 d=0.992 tx=133.9 ty=248.8
+    0010 src=(1306,333,112x79) rot=False a=0.990 b=0.000 c=0.071 d=0.992 tx=127.9 ty=315.4
+    0002 src=(1249,526,53x54) rot=False a=0.965 b=-0.090 c=0.160 d=0.974 tx=118.1 ty=434.8
+    0001 src=(456,394,101x87) rot=False a=0.975 b=0.000 c=0.070 d=0.978 tx=127.6 ty=388.9
+    0000 src=(988,424,79x77) rot=False a=0.976 b=0.000 c=0.070 d=0.978 tx=77.8 ty=373.3
+  tick[2]: 17 parts
+    0007 src=(908,1,325x251) rot=False a=1.000 b=0.000 c=-0.043 d=0.948 tx=31.2 ty=138.8
+    0008 src=(1687,187,157x85) rot=False a=1.000 b=0.000 c=-0.043 d=0.919 tx=351.2 ty=513.7
+    0028 src=(456,1,451x392) rot=False a=1.000 b=0.000 c=-0.043 d=0.919 tx=-311.9 ty=-138.0
+    0026 src=(405,529,42x42) rot=False a=0.925 b=0.000 c=-0.040 d=0.850 tx=256.4 ty=146.1
+    0026 src=(405,529,42x42) rot=False a=0.925 b=0.000 c=-0.040 d=0.850 tx=206.0 ty=237.6
+    0026 src=(405,529,42x42) rot=False a=0.925 b=0.000 c=-0.040 d=0.850 tx=-54.1 ty=77.2
+    0026 src=(405,529,42x42) rot=False a=0.925 b=0.000 c=-0.040 d=0.850 tx=-86.2 ty=175.7
+    0009 src=(1234,1,426x142) rot=False a=1.000 b=0.000 c=-0.043 d=0.919 tx=-194.6 ty=413.6
+    0006 src=(1234,144,185x188) rot=False a=0.984 b=0.000 c=-0.064 d=0.923 tx=163.7 ty=349.5
+    0005 src=(1661,1,211x185) rot=False a=0.970 b=0.136 c=-0.122 d=0.968 tx=161.5 ty=162.9
+    0015 src=(1873,139,145x135) rot=False a=0.982 b=0.138 c=-0.124 d=0.980 tx=228.6 ty=233.3
+    0004 src=(1991,275,56x147) rot=False a=0.989 b=0.065 c=-0.051 d=0.987 tx=254.1 ty=328.0
+    0003 src=(1208,333,97x94) rot=False a=0.991 b=0.044 c=-0.030 d=0.987 tx=350.1 ty=314.3
+    0010 src=(1306,333,112x79) rot=False a=0.982 b=0.138 c=-0.124 d=0.980 tx=270.7 ty=319.2
+    0002 src=(1249,526,53x54) rot=False a=0.956 b=-0.169 c=0.164 d=0.987 tx=247.2 ty=452.3
+    0001 src=(456,394,101x87) rot=False a=0.967 b=-0.077 c=0.075 d=0.997 tx=256.4 ty=404.5
+    0000 src=(988,424,79x77) rot=False a=0.983 b=0.185 c=-0.177 d=0.960 tx=228.8 ty=374.0
+[DIAG-PRC] bbox=(-653.7,-179.9)-(508.2,591.9) cell=1162x772 ticks=10
+[DIAG-PRC] unique=6 totalTicks=10
+[DIAG-PRC] atlas=3486x1544 cols=3 maxCells=6 unique=6 overflow=False
+[DIAG] Result 'Enter': 10 frames, cell=1162x772, origin=(653.7,179.9), tex=3486x1544
+[DIAG] RenderRawComposites 'IdleLeft': 15 ticks, atlas=2048x597
+  tick[0]: 27 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0036 src=(393,399,59x129) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=181.6 ty=213.1
+    0047 src=(845,394,61x131) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=206.9 ty=213.9
+    0064 src=(453,482,47x92) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=231.4 ty=256.8
+    0073 src=(1761,412,61x117) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=256.1 ty=239.1
+    0084 src=(1687,273,76x138) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=281.0 ty=227.3
+    0098 src=(1697,412,63x119) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=314.0 ty=256.6
+    0113 src=(1,520,45x72) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=339.6 ty=315.2
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=67.0 ty=289.2
+    0027 src=(1,1,454x397) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-388.1 ty=-210.9
+    0026 src=(405,529,42x42) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-46.2 ty=-115.5
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-90.1 ty=-14.5
+    0026 src=(405,529,42x42) rot=False a=0.931 b=0.000 c=0.000 d=0.931 tx=-352.9 ty=-182.2
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-380.3 ty=-79.0
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-464.5 ty=184.0
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=0.000 d=0.941 tx=31.1 ty=225.3
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=-4.8 ty=61.6
+    0015 src=(1873,139,145x135) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=70.5 ty=122.1
+    0003 src=(1208,333,97x94) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=165.7 ty=149.8
+    0004 src=(1991,275,56x147) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=133.8 ty=135.2
+    0010 src=(1306,333,112x79) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=123.0 ty=201.6
+    0002 src=(1249,526,53x54) rot=False a=0.971 b=-0.089 c=0.089 d=0.971 tx=104.6 ty=320.7
+    0001 src=(456,394,101x87) rot=False a=0.975 b=0.000 c=0.000 d=0.975 tx=117.4 ty=275.0
+    0000 src=(988,424,79x77) rot=False a=0.976 b=0.000 c=0.000 d=0.976 tx=68.7 ty=259.3
+    0017 src=(2019,1,23x59) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=311.5 ty=184.6
+    0024 src=(1641,169,16x11) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=329.8 ty=107.2
+    0020 src=(2019,141,26x40) rot=True a=0.990 b=0.000 c=0.000 d=0.990 tx=278.6 ty=144.0
+  tick[1]: 27 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0037 src=(1583,461,48x107) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=181.6 ty=234.9
+    0048 src=(137,399,61x131) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=206.9 ty=213.9
+    0065 src=(291,518,39x67) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=231.4 ty=281.5
+    0074 src=(1306,413,61x117) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=256.1 ty=239.1
+    0085 src=(1,399,67x120) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=281.0 ty=245.1
+    0099 src=(733,471,54x98) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=314.0 ty=277.4
+    0114 src=(47,520,45x72) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=339.6 ty=315.2
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=67.0 ty=289.2
+    0027 src=(1,1,454x397) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-388.1 ty=-210.9
+    0026 src=(405,529,42x42) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-46.2 ty=-115.5
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-90.1 ty=-14.5
+    0026 src=(405,529,42x42) rot=False a=0.931 b=0.000 c=0.000 d=0.931 tx=-352.9 ty=-182.2
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-380.3 ty=-79.0
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-464.5 ty=184.0
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=0.000 d=0.941 tx=31.1 ty=225.3
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=-4.8 ty=61.6
+    0015 src=(1873,139,145x135) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=70.5 ty=122.1
+    0003 src=(1208,333,97x94) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=165.7 ty=149.8
+    0004 src=(1991,275,56x147) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=133.8 ty=135.2
+    0010 src=(1306,333,112x79) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=123.0 ty=201.6
+    0002 src=(1249,526,53x54) rot=False a=0.971 b=-0.089 c=0.089 d=0.971 tx=104.6 ty=320.7
+    0001 src=(456,394,101x87) rot=False a=0.975 b=0.000 c=0.000 d=0.975 tx=117.4 ty=275.0
+    0000 src=(988,424,79x77) rot=False a=0.976 b=0.000 c=0.000 d=0.976 tx=68.7 ty=259.3
+    0017 src=(2019,1,23x59) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=311.5 ty=184.6
+    0024 src=(1641,169,16x11) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=329.8 ty=107.2
+    0021 src=(1845,187,27x36) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=282.6 ty=127.1
+  tick[2]: 27 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0038 src=(623,473,48x107) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=181.6 ty=234.9
+    0049 src=(1984,423,52x110) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=206.9 ty=234.6
+    0066 src=(93,520,39x67) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=231.4 ty=281.5
+    0075 src=(672,473,53x95) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=256.1 ty=259.9
+    0086 src=(69,399,67x120) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=281.0 ty=245.1
+    0100 src=(788,471,54x98) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=314.0 ty=277.4
+    0115 src=(1761,530,35x49) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=339.6 ty=337.9
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=67.0 ty=289.2
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-603.1 ty=-395.5
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-41.3 ty=-97.1
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-85.8 ty=-0.9
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-344.3 ty=-169.4
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-370.8 ty=-65.9
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-464.5 ty=184.0
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=0.000 d=0.941 tx=31.1 ty=225.3
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=-4.8 ty=61.6
+    0015 src=(1873,139,145x135) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=70.5 ty=122.1
+    0003 src=(1208,333,97x94) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=165.7 ty=149.8
+    0004 src=(1991,275,56x147) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=133.8 ty=135.2
+    0010 src=(1306,333,112x79) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=123.0 ty=201.6
+    0002 src=(1249,526,53x54) rot=False a=0.971 b=-0.089 c=0.089 d=0.971 tx=104.6 ty=320.7
+    0001 src=(456,394,101x87) rot=False a=0.975 b=0.000 c=0.000 d=0.975 tx=117.4 ty=275.0
+    0000 src=(988,424,79x77) rot=False a=0.976 b=0.000 c=0.000 d=0.976 tx=68.7 ty=259.3
+    0018 src=(1996,534,31x32) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=305.6 ty=172.7
+    0025 src=(1544,284,7x6) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=333.8 ty=104.2
+    0021 src=(1845,187,27x36) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=282.6 ty=127.1
+[DIAG-PRC] bbox=(-603.1,-395.5)-(384.2,402.3) cell=988x798 ticks=15
+[DIAG-PRC] unique=15 totalTicks=15
+[DIAG-PRC] atlas=3952x3192 cols=4 maxCells=16 unique=15 overflow=False
+[DIAG] Result 'IdleLeft': 15 frames, cell=988x798, origin=(603.1,395.5), tex=3952x3192
+[DIAG] RenderRawComposites 'IdleRight': 15 ticks, atlas=2048x597
+  tick[0]: 26 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0035 src=(333,399,59x129) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=181.6 ty=213.1
+    0048 src=(137,399,61x131) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=206.9 ty=213.9
+    0061 src=(1928,414,55x113) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=231.4 ty=235.9
+    0076 src=(1823,480,53x95) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=256.1 ty=259.9
+    0086 src=(69,399,67x120) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=281.0 ty=245.1
+    0096 src=(1420,284,72x138) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=314.0 ty=237.8
+    0109 src=(199,399,66x118) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=339.6 ty=269.6
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=343.4 ty=506.3
+    0027 src=(1,1,454x397) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-111.7 ty=6.1
+    0026 src=(405,529,42x42) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=230.2 ty=101.5
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=186.2 ty=202.5
+    0026 src=(405,529,42x42) rot=False a=0.931 b=0.000 c=0.000 d=0.931 tx=-76.5 ty=34.8
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-104.0 ty=138.0
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-188.2 ty=401.0
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=0.023 d=0.912 tx=14.7 ty=154.7
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.017 c=-0.017 d=0.977 tx=-4.0 ty=73.2
+    0015 src=(1873,139,145x135) rot=False a=0.989 b=0.018 c=-0.018 d=0.989 tx=67.0 ty=135.3
+    0003 src=(1208,333,97x94) rot=False a=0.989 b=0.018 c=-0.018 d=0.989 tx=159.4 ty=164.7
+    0004 src=(1991,275,56x147) rot=False a=0.989 b=0.018 c=-0.018 d=0.989 tx=127.9 ty=149.5
+    0011 src=(1012,344,112x79) rot=False a=0.989 b=0.038 c=-0.041 d=0.988 tx=117.7 ty=179.5
+    0002 src=(1249,526,53x54) rot=False a=0.973 b=0.075 c=-0.129 d=0.968 tx=127.2 ty=296.2
+    0001 src=(456,394,101x87) rot=False a=0.927 b=0.133 c=-0.144 d=0.964 tx=92.0 ty=260.6
+    0000 src=(988,424,79x77) rot=False a=0.956 b=-0.204 c=0.141 d=0.965 tx=38.5 ty=295.5
+    0024 src=(1641,169,16x11) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=308.5 ty=131.2
+    0020 src=(2019,141,26x40) rot=True a=0.990 b=0.000 c=0.000 d=0.990 tx=330.9 ty=106.3
+  tick[1]: 27 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0036 src=(393,399,59x129) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=181.6 ty=213.1
+    0049 src=(1984,423,52x110) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=206.9 ty=234.6
+    0062 src=(1368,423,55x113) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=231.4 ty=235.9
+    0077 src=(843,526,44x70) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=256.1 ty=284.6
+    0087 src=(1190,428,58x98) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=281.0 ty=266.9
+    0097 src=(1633,412,63x119) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=314.0 ty=256.6
+    0110 src=(266,399,66x118) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=339.6 ty=269.6
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=343.4 ty=506.3
+    0027 src=(1,1,454x397) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-111.7 ty=6.1
+    0026 src=(405,529,42x42) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=230.2 ty=101.5
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=186.2 ty=202.5
+    0026 src=(405,529,42x42) rot=False a=0.931 b=0.000 c=0.000 d=0.931 tx=-76.5 ty=34.8
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-104.0 ty=138.0
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-188.2 ty=401.0
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=0.023 d=0.912 tx=14.7 ty=154.7
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.017 c=-0.017 d=0.977 tx=-4.0 ty=73.2
+    0015 src=(1873,139,145x135) rot=False a=0.989 b=0.018 c=-0.018 d=0.989 tx=67.0 ty=135.3
+    0003 src=(1208,333,97x94) rot=False a=0.989 b=0.018 c=-0.018 d=0.989 tx=159.4 ty=164.7
+    0004 src=(1991,275,56x147) rot=False a=0.989 b=0.018 c=-0.018 d=0.989 tx=127.9 ty=149.5
+    0011 src=(1012,344,112x79) rot=False a=0.989 b=0.038 c=-0.041 d=0.988 tx=117.8 ty=179.5
+    0002 src=(1249,526,53x54) rot=False a=0.973 b=0.075 c=-0.129 d=0.968 tx=127.2 ty=296.2
+    0001 src=(456,394,101x87) rot=False a=0.927 b=0.133 c=-0.144 d=0.964 tx=92.0 ty=260.6
+    0000 src=(988,424,79x77) rot=False a=0.956 b=-0.204 c=0.141 d=0.965 tx=38.5 ty=295.5
+    0025 src=(1544,284,7x6) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=312.5 ty=128.2
+    0020 src=(2019,141,26x40) rot=True a=0.990 b=0.000 c=0.000 d=0.990 tx=330.9 ty=106.3
+    0017 src=(2019,1,23x59) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=332.8 ty=160.7
+  tick[2]: 27 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0037 src=(1583,461,48x107) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=181.6 ty=234.9
+    0050 src=(1068,424,52x110) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=206.9 ty=234.6
+    0063 src=(1877,480,47x92) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=231.4 ty=256.8
+    0078 src=(1121,526,44x70) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=256.1 ty=284.6
+    0088 src=(1467,461,58x98) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=281.0 ty=266.9
+    0098 src=(1697,412,63x119) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=314.0 ty=256.6
+    0111 src=(1249,428,56x97) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=339.6 ty=290.4
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=343.4 ty=506.3
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-326.7 ty=-178.4
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=235.0 ty=120.0
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=190.5 ty=216.1
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-68.0 ty=47.6
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-94.5 ty=151.1
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-188.2 ty=401.0
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=0.023 d=0.912 tx=14.7 ty=154.7
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.017 c=-0.017 d=0.977 tx=-4.0 ty=73.2
+    0015 src=(1873,139,145x135) rot=False a=0.989 b=0.018 c=-0.018 d=0.989 tx=67.0 ty=135.3
+    0003 src=(1208,333,97x94) rot=False a=0.989 b=0.018 c=-0.018 d=0.989 tx=159.4 ty=164.7
+    0004 src=(1991,275,56x147) rot=False a=0.989 b=0.018 c=-0.018 d=0.989 tx=127.9 ty=149.5
+    0011 src=(1012,344,112x79) rot=False a=0.989 b=0.038 c=-0.041 d=0.988 tx=117.8 ty=179.5
+    0002 src=(1249,526,53x54) rot=False a=0.973 b=0.075 c=-0.129 d=0.968 tx=127.2 ty=296.2
+    0001 src=(456,394,101x87) rot=False a=0.927 b=0.133 c=-0.144 d=0.964 tx=92.0 ty=260.6
+    0000 src=(988,424,79x77) rot=False a=0.956 b=-0.204 c=0.141 d=0.965 tx=38.5 ty=295.5
+    0025 src=(1544,284,7x6) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=312.5 ty=128.2
+    0021 src=(1845,187,27x36) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=334.9 ty=89.4
+    0017 src=(2019,1,23x59) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=332.8 ty=160.7
+[DIAG-PRC] bbox=(-326.7,-178.4)-(495.0,588.4) cell=822x767 ticks=15
+[DIAG-PRC] unique=15 totalTicks=15
+[DIAG-PRC] atlas=3288x3068 cols=4 maxCells=16 unique=15 overflow=False
+[DIAG] Result 'IdleRight': 15 frames, cell=822x767, origin=(326.7,178.4), tex=3288x3068
+[DIAG] RenderRawComposites 'Confirm': 18 ticks, atlas=2048x597
+  tick[0]: 24 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0035 src=(333,399,59x129) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=181.6 ty=213.1
+    0048 src=(137,399,61x131) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=206.9 ty=213.9
+    0059 src=(1125,392,64x133) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=231.4 ty=216.2
+    0072 src=(1563,325,69x135) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=256.1 ty=220.3
+    0083 src=(1131,253,76x138) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=281.0 ty=227.3
+    0096 src=(1420,284,72x138) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=314.0 ty=237.8
+    0107 src=(1764,273,76x138) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=339.6 ty=249.9
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=67.2 ty=289.4
+    0027 src=(1,1,454x397) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-388.0 ty=-210.8
+    0026 src=(405,529,42x42) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-46.0 ty=-115.4
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-90.0 ty=-14.4
+    0026 src=(405,529,42x42) rot=False a=0.931 b=0.000 c=0.000 d=0.931 tx=-352.7 ty=-182.1
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-380.2 ty=-78.9
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-464.4 ty=184.1
+    0005 src=(1661,1,211x185) rot=False a=0.964 b=-0.155 c=0.155 d=0.964 tx=-32.6 ty=48.1
+    0006 src=(1234,144,185x188) rot=False a=0.906 b=-0.013 c=0.069 d=0.987 tx=28.5 ty=98.4
+    0002 src=(1249,526,53x54) rot=False a=0.972 b=-0.035 c=0.035 d=0.972 tx=104.8 ty=245.2
+    0029 src=(1420,144,133x139) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=65.7 ty=71.9
+    0030 src=(1424,423,42x140) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=120.0 ty=96.7
+    0031 src=(908,253,103x116) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=124.8 ty=74.1
+    0032 src=(1012,253,118x90) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=92.4 ty=134.9
+    0001 src=(456,394,101x87) rot=False a=0.902 b=0.365 c=-0.365 d=0.902 tx=106.3 ty=184.8
+    0000 src=(988,424,79x77) rot=False a=0.960 b=-0.147 c=0.147 d=0.960 tx=31.7 ty=206.5
+  tick[1]: 24 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0036 src=(393,399,59x129) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=181.6 ty=213.1
+    0049 src=(1984,423,52x110) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=206.9 ty=234.6
+    0060 src=(558,394,64x133) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=231.4 ty=216.2
+    0073 src=(1761,412,61x117) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=256.1 ty=239.1
+    0084 src=(1687,273,76x138) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=281.0 ty=227.3
+    0097 src=(1633,412,63x119) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=314.0 ty=256.6
+    0108 src=(1841,275,76x138) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=339.6 ty=249.9
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=67.2 ty=289.4
+    0027 src=(1,1,454x397) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-388.0 ty=-210.8
+    0026 src=(405,529,42x42) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-46.0 ty=-115.4
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-90.0 ty=-14.4
+    0026 src=(405,529,42x42) rot=False a=0.931 b=0.000 c=0.000 d=0.931 tx=-352.7 ty=-182.1
+    0026 src=(405,529,42x42) rot=False a=0.952 b=0.000 c=0.000 d=0.952 tx=-380.2 ty=-78.9
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-464.4 ty=184.1
+    0005 src=(1661,1,211x185) rot=False a=0.964 b=-0.155 c=0.155 d=0.964 tx=-32.6 ty=48.1
+    0006 src=(1234,144,185x188) rot=False a=0.906 b=-0.013 c=0.069 d=0.987 tx=28.5 ty=98.4
+    0002 src=(1249,526,53x54) rot=False a=0.972 b=-0.035 c=0.035 d=0.972 tx=104.8 ty=245.2
+    0029 src=(1420,144,133x139) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=65.7 ty=71.9
+    0030 src=(1424,423,42x140) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=120.0 ty=96.7
+    0031 src=(908,253,103x116) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=124.8 ty=74.1
+    0032 src=(1012,253,118x90) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=92.4 ty=134.9
+    0001 src=(456,394,101x87) rot=False a=0.902 b=0.365 c=-0.365 d=0.902 tx=106.3 ty=184.8
+    0000 src=(988,424,79x77) rot=False a=0.960 b=-0.147 c=0.147 d=0.960 tx=31.7 ty=206.5
+  tick[2]: 24 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0037 src=(1583,461,48x107) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=181.6 ty=234.9
+    0050 src=(1068,424,52x110) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=206.9 ty=234.6
+    0061 src=(1928,414,55x113) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=231.4 ty=235.9
+    0074 src=(1306,413,61x117) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=256.1 ty=239.1
+    0085 src=(1,399,67x120) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=281.0 ty=245.1
+    0098 src=(1697,412,63x119) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=314.0 ty=256.6
+    0109 src=(199,399,66x118) rot=False a=0.990 b=0.000 c=0.000 d=0.990 tx=339.6 ty=269.6
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=67.2 ty=289.4
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-603.0 ty=-395.4
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-41.1 ty=-97.0
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-85.7 ty=-0.8
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-344.2 ty=-169.3
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-370.7 ty=-65.8
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-464.4 ty=184.1
+    0005 src=(1661,1,211x185) rot=False a=0.964 b=-0.155 c=0.155 d=0.964 tx=-30.6 ty=51.6
+    0006 src=(1234,144,185x188) rot=False a=0.906 b=-0.013 c=0.059 d=0.978 tx=31.7 ty=101.2
+    0002 src=(1249,526,53x54) rot=False a=0.969 b=-0.078 c=0.078 d=0.969 tx=104.7 ty=252.2
+    0029 src=(1420,144,133x139) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=67.2 ty=73.9
+    0030 src=(1424,423,42x140) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=121.5 ty=97.7
+    0031 src=(908,253,103x116) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=126.3 ty=75.1
+    0032 src=(1012,253,118x90) rot=False a=0.975 b=-0.053 c=0.053 d=0.975 tx=93.4 ty=136.4
+    0001 src=(456,394,101x87) rot=False a=0.917 b=0.324 c=-0.324 d=0.917 tx=103.6 ty=191.8
+    0000 src=(988,424,79x77) rot=False a=0.957 b=-0.160 c=0.160 d=0.957 tx=32.3 ty=213.0
+[DIAG-PRC] bbox=(-603.0,-395.4)-(414.9,386.4) cell=1018x782 ticks=18
+[DIAG-PRC] unique=16 totalTicks=18
+[DIAG-PRC] atlas=4072x3128 cols=4 maxCells=16 unique=16 overflow=False
+[DIAG] Result 'Confirm': 18 frames, cell=1018x782, origin=(603.0,395.4), tex=4072x3128
+[DIAG] RenderRawComposites 'Cancel': 5 ticks, atlas=2048x597
+  tick[0]: 17 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=67.2 ty=289.4
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-603.0 ty=-395.4
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-41.1 ty=-97.0
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-85.7 ty=-0.8
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-344.2 ty=-169.3
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-370.7 ty=-65.8
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-464.4 ty=184.1
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.005 c=-0.005 d=0.977 tx=5.3 ty=16.3
+    0006 src=(1234,144,185x188) rot=False a=0.962 b=-0.013 c=0.026 d=0.916 tx=28.1 ty=121.1
+    0002 src=(1249,526,53x54) rot=False a=0.945 b=-0.231 c=0.231 d=0.945 tx=98.9 ty=281.7
+    0033 src=(1554,187,132x137) rot=False a=0.984 b=0.109 c=-0.109 d=0.984 tx=100.8 ty=61.4
+    0030 src=(1424,423,42x140) rot=False a=0.970 b=0.108 c=-0.108 d=0.970 tx=150.1 ty=97.8
+    0031 src=(908,253,103x116) rot=False a=0.970 b=0.108 c=-0.108 d=0.970 tx=158.9 ty=74.6
+    0034 src=(1823,414,104x65) rot=False a=0.985 b=0.097 c=-0.097 d=0.985 tx=125.3 ty=165.1
+    0001 src=(456,394,101x87) rot=False a=0.957 b=0.175 c=-0.175 d=0.957 tx=92.5 ty=225.8
+    0000 src=(988,424,79x77) rot=False a=0.894 b=-0.379 c=0.379 d=0.894 tx=27.0 ty=275.3
+  tick[1]: 17 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=67.2 ty=289.4
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-603.0 ty=-395.4
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-41.1 ty=-97.0
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-85.7 ty=-0.8
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-344.2 ty=-169.3
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-370.7 ty=-65.8
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-464.4 ty=184.1
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.005 c=-0.005 d=0.977 tx=5.3 ty=16.3
+    0006 src=(1234,144,185x188) rot=False a=0.962 b=-0.013 c=0.026 d=0.916 tx=28.1 ty=121.1
+    0002 src=(1249,526,53x54) rot=False a=0.945 b=-0.231 c=0.231 d=0.945 tx=98.9 ty=281.7
+    0033 src=(1554,187,132x137) rot=False a=0.984 b=0.109 c=-0.109 d=0.984 tx=100.8 ty=61.4
+    0030 src=(1424,423,42x140) rot=False a=0.970 b=0.108 c=-0.108 d=0.970 tx=150.1 ty=97.8
+    0031 src=(908,253,103x116) rot=False a=0.970 b=0.108 c=-0.108 d=0.970 tx=158.9 ty=74.6
+    0034 src=(1823,414,104x65) rot=False a=0.985 b=0.097 c=-0.097 d=0.985 tx=125.3 ty=165.1
+    0001 src=(456,394,101x87) rot=False a=0.957 b=0.175 c=-0.175 d=0.957 tx=92.5 ty=225.8
+    0000 src=(988,424,79x77) rot=False a=0.894 b=-0.379 c=0.379 d=0.894 tx=27.0 ty=275.3
+  tick[2]: 17 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.000 d=0.977 tx=14.5 ty=121.1
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=67.2 ty=289.4
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-603.0 ty=-395.4
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-41.1 ty=-97.0
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-85.7 ty=-0.8
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-344.2 ty=-169.3
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.000 d=0.893 tx=-370.7 ty=-65.8
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.000 d=0.966 tx=-464.4 ty=184.1
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=-0.025 c=0.025 d=0.977 tx=-4.5 ty=20.4
+    0006 src=(1234,144,185x188) rot=False a=0.951 b=-0.013 c=0.026 d=0.929 tx=30.0 ty=116.2
+    0002 src=(1249,526,53x54) rot=False a=0.953 b=-0.192 c=0.192 d=0.953 tx=97.8 ty=272.5
+    0033 src=(1554,187,132x137) rot=False a=0.987 b=0.079 c=-0.079 d=0.987 tx=92.4 ty=62.5
+    0030 src=(1424,423,42x140) rot=False a=0.973 b=0.078 c=-0.078 d=0.973 tx=142.8 ty=97.5
+    0031 src=(908,253,103x116) rot=False a=0.973 b=0.078 c=-0.078 d=0.973 tx=150.9 ty=74.0
+    0034 src=(1823,414,104x65) rot=False a=0.987 b=0.067 c=-0.067 d=0.987 tx=120.1 ty=165.5
+    0001 src=(456,394,101x87) rot=False a=0.949 b=0.213 c=-0.213 d=0.949 tx=94.6 ty=216.5
+    0000 src=(988,424,79x77) rot=False a=0.924 b=-0.299 c=0.299 d=0.924 tx=26.5 ty=254.6
+[DIAG-PRC] bbox=(-603.0,-395.4)-(332.1,371.4) cell=936x767 ticks=5
+[DIAG-PRC] unique=2 totalTicks=5
+[DIAG-PRC] atlas=1872x767 cols=2 maxCells=2 unique=2 overflow=False
+[DIAG] Result 'Cancel': 5 frames, cell=936x767, origin=(603.0,395.4), tex=1872x767
+[DIAG] RenderRawComposites 'Exit': 2 ticks, atlas=2048x597
+  tick[0]: 17 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=0.031 d=0.977 tx=390.0 ty=-40.9
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=0.031 d=0.966 tx=731.3 ty=344.2
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=0.031 d=0.966 tx=39.2 ty=-340.5
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.029 d=0.893 tx=610.5 ty=-42.1
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.029 d=0.893 tx=569.1 ty=54.1
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.029 d=0.893 tx=305.2 ty=-114.4
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=0.029 d=0.893 tx=282.0 ty=-10.9
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=0.031 d=0.966 tx=196.3 ty=239.0
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=0.030 d=0.941 tx=531.4 ty=177.2
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.000 c=0.031 d=0.977 tx=490.2 ty=13.6
+    0015 src=(1873,139,145x135) rot=False a=0.990 b=0.000 c=0.032 d=0.990 tx=567.5 ty=74.1
+    0003 src=(1208,333,97x94) rot=False a=0.990 b=0.000 c=0.032 d=0.990 tx=663.5 ty=101.7
+    0004 src=(1991,275,56x147) rot=False a=0.990 b=0.000 c=0.032 d=0.990 tx=631.2 ty=87.2
+    0010 src=(1306,333,112x79) rot=False a=0.990 b=0.000 c=0.032 d=0.990 tx=622.5 ty=153.5
+    0002 src=(1249,526,53x54) rot=False a=0.969 b=-0.089 c=0.121 d=0.971 tx=607.9 ty=272.6
+    0001 src=(456,394,101x87) rot=False a=0.975 b=0.000 c=0.031 d=0.975 tx=619.2 ty=226.9
+    0000 src=(988,424,79x77) rot=False a=0.976 b=0.000 c=0.031 d=0.976 tx=570.1 ty=211.3
+  tick[1]: 17 parts
+    0007 src=(908,1,325x251) rot=False a=0.977 b=0.000 c=-0.099 d=0.977 tx=524.8 ty=-40.9
+    0008 src=(1687,187,157x85) rot=False a=0.966 b=0.000 c=-0.097 d=0.966 tx=814.9 ty=344.2
+    0028 src=(456,1,451x392) rot=False a=0.966 b=0.000 c=-0.097 d=0.966 tx=213.9 ty=-340.5
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=-0.090 d=0.893 tx=745.6 ty=-42.1
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=-0.090 d=0.893 tx=691.3 ty=54.1
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=-0.090 d=0.893 tx=449.8 ty=-114.4
+    0026 src=(405,529,42x42) rot=False a=0.893 b=0.000 c=-0.090 d=0.893 tx=412.9 ty=-10.9
+    0009 src=(1234,1,426x142) rot=False a=0.966 b=0.000 c=-0.097 d=0.966 tx=294.0 ty=239.0
+    0006 src=(1234,144,185x188) rot=False a=0.941 b=0.000 c=-0.095 d=0.941 tx=637.2 ty=177.2
+    0005 src=(1661,1,211x185) rot=False a=0.977 b=0.000 c=-0.099 d=0.977 tx=617.8 ty=13.6
+    0015 src=(1873,139,145x135) rot=False a=0.990 b=0.000 c=-0.100 d=0.990 tx=687.0 ty=74.1
+    0003 src=(1208,333,97x94) rot=False a=0.990 b=0.000 c=-0.100 d=0.990 tx=779.4 ty=101.7
+    0004 src=(1991,275,56x147) rot=False a=0.990 b=0.000 c=-0.100 d=0.990 tx=749.0 ty=87.2
+    0010 src=(1306,333,112x79) rot=False a=0.990 b=0.000 c=-0.100 d=0.990 tx=731.5 ty=153.5
+    0002 src=(1249,526,53x54) rot=False a=0.981 b=-0.089 c=-0.009 d=0.971 tx=701.1 ty=272.6
+    0001 src=(456,394,101x87) rot=False a=0.975 b=0.000 c=-0.098 d=0.975 tx=718.5 ty=226.9
+    0000 src=(988,424,79x77) rot=False a=0.976 b=0.000 c=-0.098 d=0.976 tx=671.4 ty=211.3
+[DIAG-PRC] bbox=(39.2,-340.5)-(966.6,426.3) cell=928x767 ticks=2
+[DIAG-PRC] unique=2 totalTicks=2
+[DIAG-PRC] atlas=1856x767 cols=2 maxCells=2 unique=2 overflow=False
+[DIAG] Result 'Exit': 2 frames, cell=928x767, origin=(-39.2,340.5), tex=1856x767
+Playing audio: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\menus/character_select/character_select.ogg
+Music started! Sample rate: 48000, Channels: 2
+Character select loading complete.
+[DIAG] Screenshot saved: 1280x720

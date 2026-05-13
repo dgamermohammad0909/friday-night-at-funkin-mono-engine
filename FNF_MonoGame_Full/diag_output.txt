@@ -1,0 +1,68 @@
+Loaded font: fonts/vcr.ttf
+Loaded save data: 4 song scores
+  Main timeline split into 1 label animations: default
+Loaded spritemap: 4 frames, 1 animations, 0 composite
+  Animation: 'default' (13 frames)
+Loaded spritesheet from XML: 24 frames, 1 animations
+  Animation: 'stage full instance ' (24 frames)
+  Main timeline split into 1 label animations: default
+Loaded spritemap: 2 frames, 3 animations, 0 composite
+  Animation: 'back speaker 1 animated' (15 frames)
+  Animation: 'back speaker 2 animated' (15 frames)
+  Animation: 'default' (15 frames)
+  Main timeline split into 1 label animations: default
+Loaded spritemap: 1 frames, 2 animations, 0 composite
+  Animation: 'name bar' (1 frames)
+  Animation: 'default' (4 frames)
+Loaded spritesheet from XML: 8 frames, 1 animations
+  Animation: 'BF ICON' (8 frames)
+Loaded spritesheet from XML: 8 frames, 1 animations
+  Animation: 'PICO ICON' (8 frames)
+Loaded spritesheet from XML: 21 frames, 1 animations
+  Animation: 'CHOOSE horizontal offset instance ' (21 frames)
+Loaded spritesheet from XML: 8 frames, 1 animations
+  Animation: 'CHOOSE vertical offset instance ' (8 frames)
+Loaded spritesheet from XML: 16 frames, 1 animations
+  Animation: 'cursor ACCEPTED instance ' (16 frames)
+Loaded spritesheet from XML: 15 frames, 1 animations
+  Animation: 'cursor DENIED instance ' (15 frames)
+  Main timeline split into 5 label animations: Enter, Idle, Confirm, Cancel, Exit
+Loaded spritemap: 19 frames, 5 animations, 0 composite
+  Animation: 'Enter' (18 frames)
+  Animation: 'Idle' (14 frames)
+  Animation: 'Confirm' (4 frames)
+  Animation: 'Cancel' (10 frames)
+  Animation: 'Exit' (2 frames)
+  Main timeline split into 6 label animations: Enter, IdleLeft, IdleRight, Confirm, Cancel, Exit
+Loaded spritemap: 35 frames, 6 animations, 0 composite
+  Animation: 'Enter' (10 frames)
+  Animation: 'IdleLeft' (15 frames)
+  Animation: 'IdleRight' (15 frames)
+  Animation: 'Confirm' (24 frames)
+  Animation: 'Cancel' (52 frames)
+  Animation: 'Exit' (2 frames)
+  Main timeline split into 5 label animations: Enter, Idle, Confirm, Cancel, Exit
+Loaded spritemap: 19 frames, 5 animations, 0 composite
+  Animation: 'Enter' (18 frames)
+  Animation: 'Idle' (14 frames)
+  Animation: 'Confirm' (4 frames)
+  Animation: 'Cancel' (10 frames)
+  Animation: 'Exit' (2 frames)
+  Main timeline split into 6 label animations: Enter, IdleLeft, IdleRight, Confirm, Cancel, Exit
+Loaded spritemap: 119 frames, 6 animations, 0 composite
+  Animation: 'Enter' (10 frames)
+  Animation: 'IdleLeft' (15 frames)
+  Animation: 'IdleRight' (15 frames)
+  Animation: 'Confirm' (18 frames)
+  Animation: 'Cancel' (5 frames)
+  Animation: 'Exit' (2 frames)
+=== Composite state after RenderRawComposites (no STI) ===
+  speakers: anim='back speaker 1 animated', frames=15, origin=(2.2,13.8), rect=188x335, tex=376x670
+  speakers: anim='back speaker 2 animated', frames=15, origin=(5.3,5.8), rect=229x117, tex=458x234
+  speakers: anim='default', frames=15, origin=(131.1,419.1), rect=1699x571, tex=3398x1142
+  crowd: anim='default', frames=13, origin=(10.0,6.0), rect=1467x294, tex=2934x588
+  bar: anim='name bar', frames=1, origin=(-0.0,-0.0), rect=1387x99, tex=1387x99
+  bar: anim='default', frames=4, origin=(693.2,50.2), rect=1387x100, tex=2774x200
+Playing audio: D:\godt engine custom\FNF_MonoGame_Full\bin\Debug\net8.0\win-x64\Content\menus/character_select/character_select.ogg
+Music started! Sample rate: 48000, Channels: 2
+Character select loading complete.
