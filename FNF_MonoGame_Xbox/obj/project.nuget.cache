@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "KtSUk7YDWQA=",
+  "success": true,
+  "projectFilePath": "D:\\FNF MONO ENGINE SORCE CODE\\FNF_MonoGame_Xbox\\FNF_MonoGame_Xbox.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.26\\microsoft.dotnet.ilcompiler.8.0.26.nupkg.sha512",
+    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.26\\microsoft.net.illink.tasks.8.0.26.nupkg.sha512",
+    "C:\\Users\\mohammad\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\mohammad\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.26\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.26.nupkg.sha512",
+    "C:\\Users\\mohammad\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.26\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.26.nupkg.sha512",
+    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.26\\microsoft.aspnetcore.app.runtime.win-x64.8.0.26.nupkg.sha512",
+    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.26\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.26.nupkg.sha512",
+    "C:\\Users\\mohammad\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.26\\microsoft.netcore.app.runtime.win-x64.8.0.26.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "D:\\FNF MONO ENGINE SORCE CODE\\FNF_MonoGame_Xbox\\FNF_MonoGame_Xbox.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\FNF MONO ENGINE SORCE CODE\\FNF_MonoGame_Xbox\\FNF_MonoGame_Xbox.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

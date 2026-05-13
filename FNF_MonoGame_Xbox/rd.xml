@@ -1,0 +1,6 @@
+<assembly fullname="FNF_MonoGame_Xbox" preserve="all"/>
+<assembly fullname="MonoGame.Framework" preserve="all">
+  <!-- Preserve reflection-heavy types -->
+  <type fullname="Microsoft.Xna.Framework.Content.ContentReader" preserve="all"/>
+  <type fullname="Microsoft.Xna.Framework.Content.ContentTypeReader" preserve="all"/>
+</assembly>
