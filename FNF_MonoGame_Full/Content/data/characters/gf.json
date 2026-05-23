@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "name": "Girlfriend",
+  "renderType": "animateatlas",
+  "assetPath": "shared:characters/gf",
+  "startingAnimation": "danceRight",
+  "offsets": [-12, 4],
+  "cameraOffsets": [12, 8],
+  "animations": [
+    {
+      "name": "danceLeft",
+      "prefix": "GF Dancing Beat",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+    },
+    {
+      "name": "danceRight",
+      "prefix": "GF Dancing Beat",
+      "frameIndices": [
+        15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+      ]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "GF left note"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "GF Down Note"
+    },
+    {
+      "name": "singUP",
+      "prefix": "GF Up Note"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "GF Right Note"
+    },
+    {
+      "name": "cheer",
+      "prefix": "GF Cheer"
+    },
+    {
+      "name": "combo50",
+      "prefix": "GF Cheer"
+    },
+    {
+      "name": "drop70",
+      "prefix": "gf sad",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "name": "hairBlow",
+      "prefix": "GF Dancing Beat Hair blowing",
+      "frameIndices": [0, 1, 2, 3]
+    },
+    {
+      "name": "hairFall",
+      "prefix": "GF Dancing Beat Hair Landing",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    },
+    {
+      "name": "scared",
+      "prefix": "GF FEAR",
+      "frameIndices": [0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3]
+    }
+  ]
+}
