@@ -1,0 +1,12 @@
+<Page
+    x:Class="FNF_MonoGame.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="#FF1A1A2E"
+    HorizontalAlignment="Stretch"
+    VerticalAlignment="Stretch">
+
+    <SwapChainPanel x:Name="swapChainPanel"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch" />
+</Page>

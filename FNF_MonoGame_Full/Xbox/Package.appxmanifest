@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:xbox="http://schemas.microsoft.com/appx/manifest/xbox/windows10"
+  IgnorableNamespaces="uap mp xbox rescap">
+
+  <Identity
+    Name="FridayNightFunkin.MonoGame"
+    Publisher="CN=Mohammad Aljafari"
+    Version="1.0.0.0" />
+
+  <mp:PhoneIdentity PhoneProductId="a1b2c3d4-e5f6-7890-abcd-ef1234567890" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>Friday Night Funkin' - MonoGame Edition</DisplayName>
+    <PublisherDisplayName>Mohammad Aljafari</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0" />
+    <TargetDeviceFamily Name="Windows.Xbox" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+      Executable="$targetnametoken$.exe"
+      EntryPoint="FNF_MonoGame.App">
+
+      <uap:VisualElements
+        DisplayName="Friday Night Funkin'"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png"
+        Description="Friday Night Funkin' - MonoGame Edition for Xbox"
+        BackgroundColor="#1A1A2E">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#1A1A2E"/>
+      </uap:VisualElements>
+
+      <!-- Xbox: run as a game with expanded resources (more RAM, longer startup timeout) -->
+      <xbox:XboxSystemResources>
+        <xbox:XboxProtocolActivation />
+      </xbox:XboxSystemResources>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap:Capability Name="userAccountInformation"/>
+    <!-- Xbox: expanded resources gives the app game-level memory and startup time -->
+    <rescap:Capability Name="expandedResources" />
+  </Capabilities>
+
+</Package>

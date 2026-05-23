@@ -1,0 +1,12 @@
+<!--
+    This file contains Runtime Directives used by .NET Native.
+    They define which metadata for types, methods and other code elements
+    is available for reflection and other dynamic code patterns.
+-->
+<Directives xmlns="http://schemas.microsoft.com/netfx/2013/01/metadata">
+  <Application>
+    <Assembly Name="*Application*" Dynamic="Required All" />
+    <Assembly Name="Newtonsoft.Json" Dynamic="Required All" />
+    <Assembly Name="NVorbis" Dynamic="Required All" />
+  </Application>
+</Directives>
