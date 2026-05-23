@@ -1,0 +1,12 @@
+Player 'bf' origin={X:-673.03735 Y:-113.899994}, anim=Idle
+  CompAnim 'Idle': 14 frames, rect={X:0 Y:0 Width:356 Height:427}, origin={X:-673.03735 Y:-113.899994}
+  CompAnim 'Confirm': 4 frames, rect={X:0 Y:0 Width:327 Height:427}, origin={X:-681.7616 Y:-122.72179}
+Player 'pico' origin={X:-996.6328 Y:38.546047}, anim=Idle
+  CompAnim 'Idle': 14 frames, rect={X:0 Y:0 Width:399 Height:499}, origin={X:-996.6328 Y:38.546047}
+  CompAnim 'Confirm': 4 frames, rect={X:0 Y:0 Width:303 Height:469}, origin={X:-837.5838 Y:-137.61624}
+Spectator 'bf' origin={X:460.05002 Y:134.69998}, anim=IdleLeft
+  CompAnim 'IdleLeft': 15 frames, rect={X:0 Y:0 Width:917 Height:599}, origin={X:460.05002 Y:134.69998}
+  CompAnim 'IdleRight': 15 frames, rect={X:0 Y:0 Width:917 Height:599}, origin={X:460.05002 Y:134.69998}
+Spectator 'pico' origin={X:603.1 Y:395.45}, anim=IdleLeft
+  CompAnim 'IdleLeft': 15 frames, rect={X:0 Y:0 Width:988 Height:798}, origin={X:603.1 Y:395.45}
+  CompAnim 'IdleRight': 15 frames, rect={X:0 Y:0 Width:822 Height:767}, origin={X:326.74997 Y:178.40002}
