@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Desktop/">
+    <Project Path="FNF_MonoGame_Full/FNF_MonoGame.csproj" />
+  </Folder>
+  <Folder Name="/Xbox/">
+    <Project Path="FNF_MonoGame_Full/Xbox/FNF_Xbox.csproj" Id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" />
+    <Project Path="FNF_MonoGame_Xbox/FNF_MonoGame_Xbox.csproj" />
+  </Folder>
+</Solution>
