@@ -1,0 +1,53 @@
+# Build output
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Large archives
+*.zip
+*.7z
+*.rar
+
+# Debug logs and temp files
+*.log
+*_debug.txt
+*_err.txt
+*_out.txt
+console_*.txt
+game_*.txt
+diag_*.txt
+stage_log.txt
+CHARSELECT_FIX_LOG.txt
+CONVERSATION_LOG.txt
+FULL_CHAT_TRANSCRIPT.txt
+SESSION_CHARSELECT_FIX.md
+SESSION_LOG_LATEST.txt
+
+# Debug images (large composites)
+debug_*.png
+bf_*.png
+gf_*.png
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# MonoGame content pipeline intermediate
+Content/bin/
+Content/obj/
+
+# Xbox specific large files
+FNF_MonoGame_Xbox/bin/
+FNF_MonoGame_Xbox/obj/
+
+# Python temp
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store
